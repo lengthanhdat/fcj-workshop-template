@@ -12,6 +12,4 @@ During my internship, part of my learning process involved translating and summa
 
 Below is a list of the articles I have translated and studied:
 
-1. [Architecting for the Cloud: AWS Best Practices] - Coming soon
-2. [Deep Dive into Amazon ECS and Fargate Spot] - Coming soon
-3. [Building Serverless Web Applications with AWS] - Coming soon
+1. [Amazon S3 Files – When Amazon S3 Becomes More Than Object Storage](3.1-Blog1/)
