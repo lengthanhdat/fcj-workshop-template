@@ -10,3 +10,4 @@ pre: " <b> 3. </b> "
 
 1. [Tự Động Sao Chép Cấu Hình Amazon S3 Bucket Giữa Các AWS Region](3.1-Blog1/)
 2. [Amazon S3 Files – Khi Amazon S3 không chỉ là Object Storage](3.2-Blog2/)
+3. [AWS Security Agent: Một agent, phủ kín cả vòng đời phát triển application](3.3-Blog3/)

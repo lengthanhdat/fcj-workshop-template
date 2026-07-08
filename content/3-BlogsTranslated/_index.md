@@ -14,3 +14,4 @@ Below is a list of the articles I have translated and studied:
 
 1. [Automatically Replicating Amazon S3 Bucket Configurations Across AWS Regions](3.1-Blog1/)
 2. [Amazon S3 Files – When Amazon S3 Becomes More Than Object Storage](3.2-Blog2/)
+3. [AWS Security Agent: A single agent covering the entire application development lifecycle](3.3-Blog3/)
