@@ -8,11 +8,11 @@ chapter: false
 # Báo cáo thực tập
 
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Trương Gia Huy
+&emsp; **Họ và tên:** Lê Nguyễn Thành Đạt
 
-&emsp; **Số điện thoại:** 0774477782
+&emsp; **Số điện thoại:** 0979220248
 
-&emsp; **Email:** huy12904@gmail.com
+&emsp; **Email:** tdat2202a@gmail.com
 
 &emsp; **Trường:** Đại học Công nghệ TP.HCM - HUTECH
 

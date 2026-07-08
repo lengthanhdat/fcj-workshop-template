@@ -1,19 +1,18 @@
 ---
-title : "Giới thiệu"
+title : "Tổng quan về kiến trúc CI/CD"
 date : 2024-01-01 
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+### Tổng quan về kiến trúc CI/CD
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+Để tự động hóa việc phát hành một ứng dụng Web (được đóng gói bằng Docker) lên môi trường Amazon ECS Fargate, chúng ta cần xây dựng một chuỗi CI/CD (Continuous Integration / Continuous Deployment). 
 
-#### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+Trong Workshop này, chúng ta sẽ sử dụng bộ công cụ dành cho Developer của AWS:
+1. **AWS CodeCommit (hoặc GitHub):** Nơi lưu trữ mã nguồn (Source).
+2. **AWS CodeBuild:** Dịch vụ dùng để kéo code về, chạy lệnh build Docker image, và đẩy (push) image đó lên kho chứa Amazon ECR.
+3. **AWS CodePipeline:** Dịch vụ điều phối tự động. Khi có code mới đẩy lên nhánh `main`, CodePipeline sẽ tự động gọi CodeBuild, sau đó tự động kích hoạt Amazon ECS để kéo image mới về và cập nhật ứng dụng (Rolling Update) mà không làm gián đoạn hệ thống.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![CI/CD Architecture](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169ce0d2faea7cd5a546d15a/2021/05/26/fargate-cicd-1.jpg)

@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 2"
-date: 2026-05-01
+title: "Week2"
+date: 2026-04-24
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -8,56 +8,26 @@ pre: " <b> 1.2. </b> "
 
 ### Mục tiêu tuần 2:
 
-- Tìm hiểu các dịch vụ cốt lõi của Amazon Web Services phục vụ cho việc triển khai ứng dụng.
-- Biết cách triển khai và quản lý máy chủ ảo với Amazon EC2.
-- Tìm hiểu cơ chế phân quyền thông qua IAM Roles for EC2.
-- Làm quen với môi trường phát triển AWS Cloud9 và AWS CLI.
-- Thực hành triển khai ứng dụng trên môi trường cloud.
+- Làm chủ dịch vụ tính toán Amazon EC2 và các khái niệm liên quan (AMI, EBS).
+- Hiểu và tự tay triển khai hạ tầng mạng ảo AWS VPC (Subnets, Route Tables, IGW).
+- Hoàn thiện bản đề xuất dự án (Project Proposal) và chốt vai trò thành viên.
 
 ---
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Tìm hiểu Amazon EC2 <br> - Khởi tạo Linux và Windows Instance <br> - Kết nối SSH và Remote Desktop                                  | 27/04/2026   | 27/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Triển khai ứng dụng Node.js trên Amazon EC2 <br> - Tìm hiểu các thành phần cơ bản của EC2 <br> - Thực hành quản lý EC2 Instance     | 28/04/2026   | 28/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tìm hiểu IAM Roles for EC2 <br> - So sánh Access Key và IAM Role <br> - Thực hành gán IAM Role cho EC2 Instance                     | 29/04/2026   | 29/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tạo môi trường phát triển với AWS Cloud9 <br> - Thực hành sử dụng AWS CLI <br> - Quản lý tài nguyên AWS bằng dòng lệnh              | 30/04/2026   | 30/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Ôn tập các nội dung đã học <br> - Thực hành triển khai và kiểm tra lại EC2, IAM Role và Cloud9 <br> - Tổng hợp kiến thức và ghi chú | 01/05/2026   | 01/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu lý thuyết về Amazon Virtual Private Cloud (VPC), CIDR block, Public/Private Subnet, Internet Gateway (IGW) và NAT Gateway.<br>- Vẽ sơ đồ mạng cơ bản cho hệ thống. | 27/04/2026 | 27/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Thực hành triển khai một Custom VPC hoàn chỉnh thông qua AWS Console.<br>- Cấu hình Route Table để định tuyến traffic ra Internet cho Public Subnet. | 28/04/2026 | 28/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Khởi tạo máy chủ ảo Amazon EC2 (Linux AMI) nằm trong Public Subnet.<br>- Cấu hình Security Group mở port 22 (SSH) và 80 (HTTP).<br>- Kết nối SSH vào EC2 instance từ máy local sử dụng key pair (.pem). | 29/04/2026 | 29/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Cài đặt Apache/Nginx trên EC2 để host một trang web tĩnh cơ bản.<br>- Tìm hiểu cách gán Elastic IP cho EC2.<br>- Tìm hiểu về Amazon EBS (Elastic Block Store) và cách mount volume vào EC2. | 30/04/2026 | 30/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Cùng nhóm chốt lại các tính năng cốt lõi của AuraAcademic.<br>- Soạn thảo file Proposal cho dự án.<br>- Phân công vai trò chính thức: Đảm nhận vị trí Trưởng nhóm kiêm Fullstack Developer. | 01/05/2026 | 01/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 
-### Kết quả đạt được tuần 2:
+### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
 
-- Thực hành các dịch vụ cốt lõi của Amazon Web Services liên quan đến máy chủ ảo, phân quyền truy cập và môi trường phát triển ứng dụng.
-
-- Triển khai Amazon EC2:
-  - Khởi tạo Linux Instance
-  - Khởi tạo Windows Instance
-  - Kết nối SSH và Remote Desktop
-  - Triển khai ứng dụng Node.js trên môi trường cloud
-
-- Tìm hiểu IAM Roles for EC2:
-  - Biết sự khác nhau giữa Access Key và IAM Role
-  - Gán IAM Role cho EC2 Instance
-  - Biết cách cấp quyền truy cập tài nguyên AWS an toàn
-
-- Làm quen với AWS Cloud9:
-  - Tạo môi trường phát triển
-  - Thao tác với AWS CLI
-  - Kiểm tra và quản lý tài nguyên AWS trên cloud
-
-- Biết thêm quy trình triển khai ứng dụng và quản lý tài nguyên trên nền tảng AWS.
-
----
-
-### Tự đánh giá:
-
-- Hoàn thành đầy đủ các nội dung thực hành về EC2, IAM Roles và Cloud9.
-- Biết thêm quy trình triển khai ứng dụng trên môi trường cloud.
-- Biết cách khởi tạo, cấu hình và quản lý EC2 Instance.
-- Biết cách sử dụng IAM Role để cấp quyền thay cho Access Key.
-- Tiếp tục tìm hiểu các dịch vụ lưu trữ, cơ sở dữ liệu và kiến trúc hệ thống AWS trong các tuần tiếp theo.
-
----
+- Nắm vững kiến thức mạng và máy chủ ảo trên AWS, có khả năng tự triển khai hạ tầng cơ bản.
+- Đã hoàn thành bản Proposal dự án chất lượng, phân công công việc hợp lý cho nhóm.

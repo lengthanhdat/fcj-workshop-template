@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 8"
-date: 2026-06-12
+title: "Week8"
+date: 2026-04-24
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -8,42 +8,26 @@ pre: " <b> 1.8. </b> "
 
 ### Mục tiêu tuần 8:
 
-- Hoàn thiện các chức năng còn lại của project nhóm.
-- Tối ưu trải nghiệm sử dụng hệ thống.
-- Hoàn thiện kiến trúc triển khai và tài liệu workshop.
-- Cập nhật báo cáo tiến độ dự án.
+- Tích hợp Amazon S3 để lưu trữ dữ liệu multimedia (Avatar, Video bằng chứng).
+- Hoàn thiện giao diện Phòng thi dành cho sinh viên.
+- Xử lý luồng nộp bài và tính điểm tự động.
 
 ---
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ---------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Hoàn thiện các chức năng còn lại của project nhóm                          | 08/06/2026   | 08/06/2026      |                |
-| 3   | - Kiểm tra, sửa lỗi và tối ưu trải nghiệm sử dụng hệ thống                   | 09/06/2026   | 09/06/2026      |                |
-| 4   | - Hoàn thiện kiến trúc triển khai <br> - Cập nhật sơ đồ hệ thống             | 10/06/2026   | 10/06/2026      |                |
-| 5   | - Hoàn thiện tài liệu workshop <br> - Bổ sung hình ảnh và nội dung hướng dẫn | 11/06/2026   | 11/06/2026      |                |
-| 6   | - Tổng hợp tiến độ dự án <br> - Hoàn thiện báo cáo tuần                      | 12/06/2026   | 12/06/2026      |                |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tích hợp AWS SDK for Java vào Spring Boot.<br>- Viết API tạo S3 Presigned URL để Frontend có thể upload file trực tiếp lên S3 bucket một cách bảo mật mà không qua Backend trung gian. | 08/06/2026 | 08/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Cấu hình Frontend Next.js xử lý việc chụp ảnh xác thực từ Webcam và upload lên S3 sử dụng Presigned URL nhận được. | 09/06/2026 | 09/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Xây dựng giao diện Làm bài thi: Hiển thị câu hỏi tuần tự, có đồng hồ đếm ngược (Countdown Timer) đồng bộ với thời gian server. | 10/06/2026 | 10/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Xử lý logic auto-submit: Tự động thu bài khi hết giờ.<br>- Viết API Backend nhận danh sách câu trả lời, so sánh với đáp án chuẩn và tính điểm tự động. | 11/06/2026 | 11/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Phối hợp với thành viên phụ trách AI: Thảo luận về chuẩn giao tiếp (WebSockets/API) để nhận kết quả cảnh báo gian lận từ model YOLOv8 gửi về Frontend. | 12/06/2026 | 12/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 
-### Kết quả đạt được tuần 8:
+### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
 
-- Hoàn thiện các chức năng còn lại của project nhóm.
-
-- Kiểm tra, sửa lỗi và tối ưu trải nghiệm sử dụng hệ thống.
-
-- Hoàn thiện kiến trúc triển khai và cập nhật tài liệu workshop.
-
-- Tổng hợp tiến độ và chuẩn bị các nội dung cho giai đoạn kiểm thử.
-
----
-
-### Tự đánh giá:
-
-- Hoàn thành các công việc theo kế hoạch.
-- Biết thêm quy trình hoàn thiện tài liệu và kiến trúc triển khai.
-- Cải thiện kỹ năng kiểm thử và xử lý lỗi trong quá trình phát triển project.
-- Sẵn sàng cho giai đoạn kiểm thử và hoàn thiện sản phẩm.
-
----
+- Giải quyết triệt để bài toán lưu trữ file tĩnh bằng S3 Presigned URL, giảm tải cho Backend server.
+- Hoàn thành module Phòng thi phức tạp nhất của dự án.

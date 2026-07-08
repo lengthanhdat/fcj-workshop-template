@@ -1,6 +1,6 @@
 ---
-title: "Worklog Week 8"
-date: 2026-06-12
+title: "Week8"
+date: 2026-04-24
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -8,45 +8,26 @@ pre: " <b> 1.8. </b> "
 
 ### Week 8 Objectives:
 
-- Complete the remaining features of the team project.
-- Improve the overall user experience of the system.
-- Finalize the deployment architecture and workshop documentation.
-- Update the project progress report.
+- Integrate Amazon S3 to store multimedia data (Avatars, Evidence Videos).
+- Finalize the Exam Room UI for students.
+- Process the exam submission and auto-grading flow.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks to be implemented this week:
 
-| Day | Task                                                                                 | Start Date | Completion Date | Reference |
-| --- | ------------------------------------------------------------------------------------ | ---------- | --------------- | --------- |
-| Mon | - Complete the remaining features of the team project                                | 08/06/2026 | 08/06/2026      |           |
-| Tue | - Test, fix issues, and improve the user experience of the system                    | 09/06/2026 | 09/06/2026      |           |
-| Wed | - Finalize the deployment architecture <br> - Update the system architecture diagram | 10/06/2026 | 10/06/2026      |           |
-| Thu | - Complete the workshop documentation <br> - Add screenshots and user guides         | 11/06/2026 | 11/06/2026      |           |
-| Fri | - Review project progress <br> - Complete the weekly report                          | 12/06/2026 | 12/06/2026      |           |
+| Day | Task | Start Date | End Date | Resource |
+| --- | --- | --- | --- | --- |
+| Mon | - Integrate AWS SDK for Java into Spring Boot.<br>- Write an API to generate S3 Presigned URLs for direct, secure file uploads from Frontend to S3. | 08/06/2026 | 08/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Tue | - Configure Next.js to handle webcam captures and upload them to S3 using the received Presigned URLs. | 09/06/2026 | 09/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - Build the Exam Interface: Display questions sequentially, include a Countdown Timer synced with the server. | 10/06/2026 | 10/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Thu | - Implement auto-submit logic when time runs out.<br>- Write Backend APIs to receive answers, compare them with correct answers, and calculate scores. | 11/06/2026 | 11/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Fri | - Coordinate with the AI team member: Discuss WebSockets/API standards to receive fraud warnings from the YOLOv8 model. | 12/06/2026 | 12/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
----
-
-### Results Achieved:
-
-- Completed the remaining features of the team project.
-
-- Tested the system, fixed issues, and improved the overall user experience.
-
-- Finalized the deployment architecture and updated the workshop documentation.
-
-- Reviewed the project progress and prepared for the testing phase.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation as Team Leader & Fullstack Developer:
 
-- Successfully completed all planned tasks for the week.
-
-- Gained more experience in preparing technical documentation and deployment architecture.
-
-- Improved testing and debugging skills during the project development process.
-
-- Ready to move on to the system testing and final refinement stage.
-
----
+- Solved static file storage effectively using S3 Presigned URLs, offloading the Backend server.
+- Completed the most complex module of the project.

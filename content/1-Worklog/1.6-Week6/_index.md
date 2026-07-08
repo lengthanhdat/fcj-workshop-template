@@ -1,6 +1,6 @@
 ---
-title: "Worklog Week 6"
-date: 2026-05-29
+title: "Week6"
+date: 2026-04-24
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
@@ -8,48 +8,26 @@ pre: " <b> 1.6. </b> "
 
 ### Week 6 Objectives:
 
-- Attend the First Cloud Journey meeting.
-- Continue developing the team project according to the project plan.
-- Improve the project documentation and system architecture.
-- Prepare for the next implementation phase.
+- Integrate Authentication and Authorization.
+- Work with Amazon Cognito for user identity management.
+- Complete Login/Register functionalities.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks to be implemented this week:
 
-| Day | Task                                                                                                                                                                              | Start Date | Completion Date | Reference |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Continue developing the team project <br> - Complete assigned features                                                                                                          | 25/05/2026 | 25/05/2026      |           |
-| Tue | - Test and fix issues <br> - Update and synchronize the source code with the team                                                                                                 | 26/05/2026 | 26/05/2026      |           |
-| Wed | - Update project documentation <br> - Improve the system architecture                                                                                                             | 27/05/2026 | 27/05/2026      |           |
-| Thu | - Continue project development <br> - Test completed features                                                                                                                     | 28/05/2026 | 28/05/2026      |           |
-| Fri | - Review project progress <br> - Prepare the weekly report                                                                                                                        | 29/05/2026 | 29/05/2026      |           |
-| Sat | - Attend the First Cloud Journey meeting <br> - Learn about new technologies and study experiences <br> - Discuss project-related issues <br> - Explore AWS Cloud Quest and Floci | 30/05/2026 | 30/05/2026      |           |
+| Day | Task | Start Date | End Date | Resource |
+| --- | --- | --- | --- | --- |
+| Mon | - Deep dive into Amazon Cognito.<br>- Configure Cognito User Pool, set required attributes, and create an App Client. | 25/05/2026 | 25/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Tue | - Integrate AWS Amplify / Cognito SDK into the Next.js app to handle Login, Signup, and Forgot Password flows. | 26/05/2026 | 26/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - On the Spring Boot side: Implement Spring Security.<br>- Write custom filters to intercept requests and validate JWT tokens issued by Cognito. | 27/05/2026 | 27/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Thu | - Build an API to fetch the current user's Profile.<br>- Connect Frontend to call Backend APIs with Bearer Tokens.<br>- Configure Axios Interceptors. | 28/05/2026 | 28/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Fri | - Review team Pull Requests.<br>- Pair-program with members struggling with API calls or React state. | 29/05/2026 | 29/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
----
-
-### Results Achieved:
-
-- Attended the First Cloud Journey meeting and learned about various technologies, study experiences, and solutions to common project issues.
-
-- Learned about additional AWS learning resources:
-  - AWS Cloud Quest.
-  - Floci.
-
-- Continued developing the team project and completed the assigned features.
-
-- Updated the project documentation and improved the system architecture.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation as Team Leader & Fullstack Developer:
 
-- Successfully completed the planned tasks for the week.
-
-- Improved teamwork and communication skills through project collaboration.
-
-- Learned about useful AWS learning resources that can support project development.
-
-- Will continue improving the project and preparing for the next implementation phase.
-
----
+- Successfully deployed a comprehensive security flow from Frontend to Backend using AWS Cognito.
+- Managed the team effectively through thorough code reviews.

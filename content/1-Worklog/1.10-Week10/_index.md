@@ -1,6 +1,6 @@
 ---
-title: "Worklog Week 10"
-date: 2026-06-26
+title: "Week10"
+date: 2026-04-24
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
@@ -8,45 +8,26 @@ pre: " <b> 1.10. </b> "
 
 ### Week 10 Objectives:
 
-- Complete all remaining project features.
-- Perform final system testing and evaluate system stability.
-- Optimize resource usage and review system security.
-- Finalize the project documentation and presentation materials.
+- Complete Frontend deployment on AWS (S3 + CloudFront).
+- Perform End-to-End (E2E) Testing.
+- Outline ideas and prepare documentation for the personal Workshop.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks to be implemented this week:
 
-| Day | Task                                                                               | Start Date | Completion Date | Reference |
-| --- | ---------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Complete the remaining project features                                          | 22/06/2026 | 22/06/2026      |           |
-| Tue | - Perform final system testing <br> - Evaluate system stability                    | 23/06/2026 | 23/06/2026      |           |
-| Wed | - Optimize resource usage <br> - Review system security and configurations         | 24/06/2026 | 24/06/2026      |           |
-| Thu | - Finalize the project documentation <br> - Update the system architecture diagram | 25/06/2026 | 25/06/2026      |           |
-| Fri | - Prepare the presentation materials <br> - Review overall project progress        | 26/06/2026 | 26/06/2026      |           |
+| Day | Task | Start Date | End Date | Resource |
+| --- | --- | --- | --- | --- |
+| Mon | - Build the Next.js app into static HTML/JS files.<br>- Deploy to an Amazon S3 Bucket and use CloudFront CDN for global distribution. | 22/06/2026 | 22/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Tue | - Configure SSL/TLS Certificates (ACM) on CloudFront and ALB to support HTTPS securely. | 23/06/2026 | 23/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - Organize a User Acceptance Testing (UAT) session with all team members.<br>- Simulate Proctor and Student roles. | 24/06/2026 | 24/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Thu | - Review Amazon CloudWatch logs, identify bottlenecks, and fix bugs (mostly mobile UI and S3 image display issues). | 25/06/2026 | 25/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Fri | - Start drafting the outline for the personal technical Workshop: Chose the topic 'Deploying CI/CD with AWS CodePipeline'. | 26/06/2026 | 26/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
----
-
-### Results Achieved:
-
-- Completed the remaining project features and performed comprehensive system testing.
-
-- Optimized resource usage, reviewed system security, and verified the system's operational readiness.
-
-- Finalized the project documentation, updated the system architecture diagram, and completed the presentation materials.
-
-- Prepared all required materials for the final presentation and project evaluation.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation as Team Leader & Fullstack Developer:
 
-- Successfully completed all planned tasks for the week.
-
-- Gained more experience in system testing, optimization, and security review.
-
-- Improved technical documentation and presentation preparation skills.
-
-- Ready for the final project presentation and evaluation.
-
----
+- The AuraAcademic system is fully operational and smooth on the Production Cloud environment.
+- Demonstrated thoroughness in testing and bug fixing.

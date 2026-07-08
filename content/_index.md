@@ -8,11 +8,11 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Truong Gia Huy
+&emsp; **Full Name:** Lê Nguyễn Thành Đạt
 
-&emsp; **Phone Number:** 0774477782
+&emsp; **Phone Number:** 0979220248
 
-&emsp; **Email:** huy12904@gmail.com
+&emsp; **Email:** tdat2202a@gmail.com
 
 &emsp; **University:** HCMC University of Technology - HUTECH
 
@@ -33,7 +33,7 @@ chapter: false
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
 3.  [Translated Blogs](3-BlogsTranslated/)
-4.  [Events Participated](4-EventParticipated/)
+4.  [Participated Events](4-EventParticipated/)
 5.  [Workshop](5-Workshop/)
 6.  [Self-evaluation](6-Self-evaluation/)
 7.  [Sharing and Feedback](7-Feedback/)

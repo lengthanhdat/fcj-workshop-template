@@ -16,7 +16,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "huy12904@gmail.com"
+  author = "tdat2202a@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -25,7 +25,7 @@ home = [ "HTML", "RSS", "JSON"]
 [Languages.en]
 title = "Internship Report"
 weight = 1
-languageName = "English"
+label = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -36,13 +36,13 @@ weight = 20
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github"
 identifier = "Github"
-url = "https://github.com/imyuh1209/fcj-workshop-template"
+url = "https://github.com/lengthanhdat"
 weight = 30
 
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
-languageName = "Tiếng Việt"
+label = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -53,7 +53,7 @@ weight = 20
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github"
 identifier = "Github"
-url = "https://github.com/imyuh1209/fcj-workshop-template"
+url = "https://github.com/lengthanhdat"
 weight = 30
 
 [markup]

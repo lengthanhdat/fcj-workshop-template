@@ -1,102 +1,102 @@
 ---
-title: "Sharing and Feedback"
-date: 2026-07-10
+title: "Feedback"
+date: 2024-01-01
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-During my participation in the **First Cloud Journey (FCAJ)** program, I had the opportunity to learn, practice, and experience a real working environment through learning activities, workshops, meetings, and group project development. This program provided great value, helping me improve my technical knowledge as well as develop essential skills for my future career.
+While participating in the **First Cloud Journey (FCAJ)** program, I had the opportunity to learn, practice, and experience a real working environment through learning activities, workshops, meetings, and group project development. This program provided immense value, helping me improve my technical knowledge as well as the essential skills for career development.
 
-Below are my personal feedback and contributions after completing the program:
+Below are some of my personal thoughts and feedback after completing the program:
 
 ---
 
-## General Evaluation
+## General Assessment
 
 ### **1. Learning and Working Environment**
 
-The environment in the **First Cloud Journey** program was friendly, open, and created many opportunities for members to exchange knowledge and learn from each other. The activities in the program motivated me to explore more about Cloud Computing and related technologies.
+The environment in the **First Cloud Journey** program was very friendly, open, and provided many opportunities for members to exchange ideas and learn from each other. The program's activities highly motivated me to explore Cloud Computing and related technologies.
 
-In addition, meetings and workshops were valuable opportunities for members to gain practical knowledge from experienced people in the technology industry.
+In addition, the meetings and workshops were great opportunities for members to gain practical knowledge from experienced professionals in the industry.
 
 ---
 
 ### **2. Support from Mentors and Organizing Team**
 
-The mentors and organizing team provided enthusiastic support throughout the program. The learning materials, workshop contents, and sharing sessions helped me easily approach new knowledge about AWS.
+The mentors and organizing team provided enthusiastic support throughout the program. The instruction materials, workshop content, and sharing sessions made it easy for me to grasp new concepts about AWS.
 
-I highly appreciate that the program encouraged members to actively research, practice, and discuss when facing difficulties instead of only providing theoretical knowledge.
-
----
-
-### **3. Relevance Between the Program and My Major**
-
-The program content was highly relevant to my Information Technology background, especially knowledge related to Cloud, Backend, DevOps, and system deployment.
-
-Through practicing AWS services and developing group projects, I was able to apply the knowledge learned at university into real-world environments. At the same time, I gained a better understanding of the process of building and operating a system.
+I highly appreciate that the program encouraged members to proactively research, practice, and discuss when facing difficulties, rather than just providing theoretical knowledge.
 
 ---
 
-### **4. Learning Opportunities and Skill Development**
+### **3. Alignment between the Program and my Major**
 
-The program provided many opportunities for me to develop both technical skills and soft skills.
+The program's content perfectly aligned with my career orientation in Information Technology, especially regarding Cloud, Backend, DevOps, and system deployment.
 
-Regarding technical knowledge, I was introduced to various AWS services such as EC2, S3, RDS, CloudFront, CloudWatch, IAM, Lambda, and other concepts related to Cloud architecture.
-
-Regarding soft skills, I improved my teamwork, communication, task management, technical documentation, and presentation skills.
+By practicing with AWS services and developing the group project, I was able to apply what I learned at university to a real-world environment, while also gaining a clearer understanding of the process of building and operating a system.
 
 ---
 
-### **5. Culture and Community Spirit**
+### **4. Opportunities to Learn and Develop Skills**
 
-Members in the program had a strong spirit of support and knowledge sharing. The meetings, workshops, and community activities created a positive learning environment where everyone could exchange experiences and grow together.
+The program provided numerous opportunities for me to develop both technical and soft skills.
+
+Professionally, I gained exposure to many AWS services such as EC2, S3, RDS, CloudFront, CloudWatch, IAM, Lambda, and Cloud architecture principles.
+
+Regarding soft skills, I improved my teamwork, communication, task management, technical writing, and presentation skills.
+
+---
+
+### **5. Community Culture and Spirit**
+
+The members of the program showed a great spirit of supporting and sharing knowledge with each other. The meetings, workshops, and community activities created a positive learning environment where everyone could exchange experiences and grow together.
 
 ---
 
 ### **6. Policies and Support for Interns**
 
-The program provided sufficient learning materials, guidance, and practical activities that helped interns effectively approach AWS technologies.
+The program provided comprehensive learning materials, guidelines, and practical activities that helped interns approach AWS effectively.
 
-Participating in sharing sessions from experienced professionals was also a valuable opportunity, giving me a more practical perspective on working in the Cloud field.
+Participating in sharing sessions from experienced professionals was also highly valuable, giving me a practical perspective on jobs in the Cloud industry.
 
 ---
 
 ## Additional Questions
 
-### **What did I appreciate the most during the program?**
+### **What are you most satisfied with during the program?**
 
-The thing I appreciated the most was the opportunity to access Cloud knowledge through practical labs, workshops, and group projects. The program not only focused on theory but also helped me understand how AWS services can be applied in real-world systems.
-
----
-
-### **What improvements do I think the program could make?**
-
-I think the program could organize more advanced hands-on sessions or direct guidance sessions about Cloud architecture, DevOps, and real-world system deployment so that members can have more opportunities to practice.
-
-Additionally, more networking activities could be organized to help members connect, exchange knowledge, and support each other throughout the learning process.
+What I am most satisfied with is the opportunity to approach Cloud knowledge practically through labs, workshops, and group projects. The program didn't just focus on theory but helped me understand how to apply AWS services to real-world systems.
 
 ---
 
-### **Would I recommend this program to others? Why?**
+### **What do you think the program can improve?**
 
-I would definitely recommend the **First Cloud Journey** program to students who are interested in Cloud, Backend, or DevOps development.
+I think the program could organize more in-depth practical sessions or live tutorials on Cloud architecture, DevOps, and real-world system deployments to give members more hands-on opportunities.
 
-This is a valuable program that provides opportunities to learn new technologies, practice with real-world tools, and better understand the requirements of the current technology industry.
+Additionally, increasing networking activities among members would provide more chances to exchange ideas and support each other during the learning process.
 
 ---
 
-## Suggestions and Expectations
+### **If you were to recommend the program to a friend, would you? Why?**
 
-- Continue organizing workshops and sharing sessions with more practical technology topics.
-- Provide more advanced labs related to Cloud architecture, security, and DevOps.
-- Organize more networking activities to improve communication and teamwork among members.
-- Continue maintaining this program in the future to provide opportunities for more students to access Cloud technologies.
+I would definitely recommend the **First Cloud Journey** program to friends who are oriented towards Cloud, Backend, or DevOps.
+
+This is an incredibly useful program that gives participants the opportunity to learn new knowledge, practice with real technologies, and better understand current industry requirements.
+
+---
+
+## Suggestions and Desires
+
+- I hope the program continues to maintain workshops and sharing sessions with more practical tech topics.
+- Add advanced labs on Cloud architecture, security, and DevOps.
+- Organize more networking activities among members to enhance communication and teamwork.
+- Continue maintaining the program in the future to give more students the chance to access Cloud technology.
 
 ---
 
 ## Other Feedback
 
-I would like to express my gratitude to the **First Cloud Journey (FCAJ)** team for organizing such a meaningful program and creating opportunities for interns to learn, practice, and improve themselves.
+I would like to thank the **First Cloud Journey (FCAJ)** team for organizing such a meaningful program and creating the conditions for interns to learn, practice, and develop themselves.
 
-Through this program, I have not only improved my knowledge of AWS and Cloud Computing but also gained valuable practical experience, helping me have a clearer direction for my future career development.
+Through the program, I not only improved my knowledge of AWS and Cloud Computing but also accumulated a lot of practical experience, which gives me a clearer direction for my future career path.

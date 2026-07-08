@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 1"
+title: "Week1"
 date: 2026-04-24
 weight: 1
 chapter: false
@@ -8,71 +8,28 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1:
 
-- Làm quen với môi trường thực tập và các thành viên trong chương trình First Cloud Journey.
-- Tìm hiểu tổng quan về Điện toán đám mây và nền tảng AWS.
-- Biết cách tạo tài khoản AWS và các bước cấu hình ban đầu.
-- Biết cách quản lý chi phí để tránh phát sinh ngoài ý muốn.
-- Tìm hiểu cơ chế phân quyền và quản lý truy cập với AWS IAM.
+- Làm quen với quy trình thực tập First Cloud Journey và các quy định của chương trình.
+- Nắm vững các khái niệm cơ bản về Cloud Computing và hệ sinh thái AWS.
+- Tạo và bảo mật tài khoản AWS Free Tier (Thiết lập IAM, MFA, Billing Alarm).
+- Tổ chức họp nhóm đầu tiên, khởi động quá trình brainstorm ý tưởng dự án.
 
 ---
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và tìm hiểu nội quy thực tập <br> - Tìm hiểu quy trình làm việc và yêu cầu báo cáo | 20/04/2026   | 20/04/2026      |                                         |
-| 3   | - Tạo mới tài khoản AWS Free Tier <br> - Khám phá AWS Management Console <br> - Làm quen giao diện các dịch vụ chính            | 21/04/2026   | 21/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Thiết lập AWS Budgets <br> - Cấu hình cảnh báo chi phí qua email <br> - Tìm hiểu các yếu tố ảnh hưởng đến chi phí             | 22/04/2026   | 22/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Tìm hiểu AWS Support <br> - Các gói hỗ trợ (Basic, Developer, Business, Enterprise) <br> - Thực hành tạo support case mẫu     | 23/04/2026   | 23/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu IAM: User, Group, Role, Policy <br> - Thực hành tạo User và phân quyền <br> - Tìm hiểu nguyên tắc Least Privilege    | 24/04/2026   | 24/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tham gia buổi định hướng (Orientation) của chương trình FCJ.<br>- Đọc kỹ các tài liệu hướng dẫn, nội quy và yêu cầu báo cáo thực tập hàng tuần.<br>- Giao lưu và làm quen với các thành viên trong nhóm. | 20/04/2026 | 20/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Tìm hiểu tổng quan về Cloud Computing (IaaS, PaaS, SaaS).<br>- Tạo tài khoản AWS Free Tier.<br>- Kích hoạt Multi-Factor Authentication (MFA) cho tài khoản Root để tăng cường bảo mật. | 21/04/2026 | 21/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Thiết lập AWS Budgets và cấu hình CloudWatch Alarm để nhận thông báo qua email khi chi phí vượt quá 1 USD (Tránh rủi ro phát sinh chi phí ngoài ý muốn). | 22/04/2026 | 22/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Khám phá AWS Management Console.<br>- Tìm hiểu sâu về AWS IAM (Identity and Access Management).<br>- Thực hành tạo IAM User, Group, Role và gán các Policy theo nguyên tắc đặc quyền tối thiểu (Least Privilege). | 23/04/2026 | 23/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Tổ chức buổi họp nhóm (Kick-off meeting) qua Google Meet/Zoom.<br>- Bắt đầu thảo luận các ý tưởng dự án cuối khóa.<br>- Thống nhất hướng đi: Xây dựng nền tảng thi trực tuyến có giám sát AI (AuraAcademic). | 24/04/2026 | 24/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 
-### Kết quả đạt được tuần 1:
+### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
 
-- Biết được khái niệm cơ bản về điện toán đám mây và vai trò của AWS trong việc cung cấp hạ tầng công nghệ thông tin.
-
-- Biết được cấu trúc hạ tầng toàn cầu của AWS, bao gồm:
-  - Region
-  - Availability Zone
-  - Edge Location
-
-- Tạo thành công tài khoản AWS Free Tier và hoàn tất các bước cấu hình ban đầu:
-  - Xác thực tài khoản
-  - Cấu hình thông tin thanh toán
-  - Truy cập AWS Management Console
-
-- Làm quen với AWS Management Console:
-  - Biết cách tìm kiếm dịch vụ
-  - Biết cách điều hướng giữa các service
-  - Biết cách quản lý tài nguyên cơ bản
-
-- Thiết lập quản lý chi phí với AWS Budgets:
-  - Tạo ngân sách theo tháng
-  - Cấu hình cảnh báo khi chi phí vượt ngưỡng
-  - Biết được vai trò của việc kiểm soát chi phí khi sử dụng dịch vụ AWS
-
-- Tìm hiểu về AWS Support:
-  - Biết được các gói hỗ trợ
-  - Biết quy trình tạo support case
-  - Biết khi nào cần sử dụng dịch vụ hỗ trợ
-
-- Tìm hiểu AWS IAM:
-  - Tạo IAM User
-  - Gán quyền thông qua Policy
-  - Quản lý User theo Group
-  - Biết được vai trò của IAM Role trong hệ thống
-
-- Biết thêm về vai trò của bảo mật và phân quyền khi sử dụng các dịch vụ AWS.
-
----
-
-### Tự đánh giá:
-
-- Hoàn thành đầy đủ các nội dung cơ bản trong tuần đầu tiên về tài khoản, quản lý chi phí và phân quyền.
-- Làm quen với môi trường AWS và giao diện AWS Management Console.
-- Biết cách thực hiện các thao tác cơ bản trên AWS Console.
-- Biết được tầm quan trọng của việc quản lý chi phí và phân quyền khi sử dụng dịch vụ AWS.
-- Tiếp tục tìm hiểu và thực hành các dịch vụ cốt lõi như EC2, S3 và VPC trong các tuần tiếp theo.
-
----
+- Đã làm quen với môi trường AWS và thiết lập bảo mật an toàn cho tài khoản.
+- Xây dựng được sự gắn kết ban đầu với các thành viên trong nhóm.
+- Xác định được mục tiêu dự án rõ ràng.

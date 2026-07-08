@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 10"
-date: 2026-06-26
+title: "Week10"
+date: 2026-04-24
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
@@ -8,42 +8,26 @@ pre: " <b> 1.10. </b> "
 
 ### Mục tiêu tuần 10:
 
-- Hoàn thiện các chức năng của project.
-- Kiểm thử tổng thể và đánh giá hệ thống.
-- Tối ưu tài nguyên và rà soát bảo mật.
-- Hoàn thiện tài liệu và nội dung trình bày.
+- Hoàn tất triển khai Frontend lên hạ tầng AWS (S3 + CloudFront).
+- Thực hiện kiểm thử toàn hệ thống (End-to-End Testing).
+- Lên khung ý tưởng và chuẩn bị tài liệu cho Workshop cá nhân.
 
 ---
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Hoàn thiện các chức năng còn lại của project                  | 22/06/2026   | 22/06/2026      |                |
-| 3   | - Kiểm thử tổng thể <br> - Đánh giá độ ổn định của hệ thống     | 23/06/2026   | 23/06/2026      |                |
-| 4   | - Tối ưu tài nguyên <br> - Rà soát bảo mật và cấu hình hệ thống | 24/06/2026   | 24/06/2026      |                |
-| 5   | - Hoàn thiện tài liệu dự án <br> - Cập nhật sơ đồ kiến trúc     | 25/06/2026   | 25/06/2026      |                |
-| 6   | - Chuẩn bị nội dung trình bày <br> - Tổng hợp tiến độ dự án     | 26/06/2026   | 26/06/2026      |                |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Build ứng dụng Next.js ra các file static HTML/JS.<br>- Triển khai bộ source này lên Amazon S3 Bucket và dùng CloudFront CDN để phân phối đến người dùng toàn cầu. | 22/06/2026 | 22/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Cấu hình SSL/TLS Certificate (ACM) trên CloudFront và ALB để hỗ trợ giao thức HTTPS an toàn cho toàn bộ hệ thống. | 23/06/2026 | 23/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Tổ chức phiên kiểm thử toàn hệ thống (UAT - User Acceptance Testing) với tất cả các thành viên trong nhóm.<br>- Giả lập vai trò Giám thị tạo đề và Sinh viên làm bài thi. | 24/06/2026 | 24/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Rà soát log trên Amazon CloudWatch, xác định các nút thắt cổ chai (bottleneck) và sửa các bugs (phần lớn là lỗi UI trên thiết bị di động và lỗi hiển thị hình ảnh S3). | 25/06/2026 | 25/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Bắt đầu phác thảo đề cương cho Workshop kỹ thuật cá nhân theo yêu cầu thực tập: Chọn chủ đề 'Triển khai CI/CD với AWS CodePipeline'. | 26/06/2026 | 26/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 
-### Kết quả đạt được tuần 10:
+### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
 
-- Hoàn thiện các chức năng còn lại và kiểm thử tổng thể hệ thống.
-
-- Tối ưu tài nguyên, rà soát bảo mật và kiểm tra khả năng vận hành thực tế.
-
-- Hoàn thiện tài liệu dự án, sơ đồ kiến trúc và nội dung trình bày.
-
-- Chuẩn bị các nội dung cần thiết cho giai đoạn báo cáo và nghiệm thu.
-
----
-
-### Tự đánh giá:
-
-- Hoàn thành các công việc theo kế hoạch.
-- Biết thêm quy trình kiểm thử, tối ưu và rà soát hệ thống.
-- Cải thiện kỹ năng chuẩn bị tài liệu và thuyết trình dự án.
-- Sẵn sàng cho giai đoạn báo cáo và nghiệm thu project.
-
----
+- Hệ thống AuraAcademic đã chạy hoàn chỉnh và mượt mà trên môi trường Production Cloud.
+- Thể hiện sự chỉn chu trong khâu kiểm thử và fix bug.

@@ -1,18 +1,18 @@
 ---
-title : "Introduction"
+title : "Overview of CI/CD Architecture"
 date : 2024-01-01 
-weight : 1 
+weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### VPC endpoints
-+ **VPC endpoints** are virtual devices. They are horizontally scaled, redundant, and highly available VPC components. They allow communication between your compute resources and AWS services without imposing availability risks.
-+ Compute resources running in VPC can access  **Amazon S3**  using a Gateway endpoint. PrivateLink interface endpoints can be used by compute resources running in VPC or on-premises.
+### Overview of CI/CD Architecture
 
-#### Workshop overview
-In this workshop, you will use two VPCs. 
-+ **"VPC Cloud"** is for cloud resources such as a  **Gateway endpoint** and an EC2 instance to test with. 
-+ **"VPC On-Prem"** simulates an on-premises environment such as a factory or corporate datacenter. An EC2 instance running strongSwan VPN software has been deployed in "VPC On-prem" and automatically configured to establish a Site-to-Site VPN tunnel with AWS Transit Gateway. This VPN simulates connectivity from an on-premises location to the AWS cloud. To minimize costs, only one VPN instance is provisioned to support this workshop. When planning VPN connectivity for your production workloads, AWS recommends using multiple VPN devices for high availability.
+To automate the release process of a Web application (containerized with Docker) to Amazon ECS Fargate, we need to build a Continuous Integration / Continuous Deployment (CI/CD) pipeline.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+In this Workshop, we will use AWS Developer Tools:
+1. **AWS CodeCommit (or GitHub):** The source code repository.
+2. **AWS CodeBuild:** The service that pulls the code, runs the Docker build command, and pushes the image to Amazon ECR.
+3. **AWS CodePipeline:** The automation orchestrator. When new code is pushed to the `main` branch, CodePipeline automatically triggers CodeBuild, then triggers Amazon ECS to pull the new image and perform a Rolling Update without causing system downtime.
+
+![CI/CD Architecture](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169ce0d2faea7cd5a546d15a/2021/05/26/fargate-cicd-1.jpg)

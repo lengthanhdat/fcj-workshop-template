@@ -1,6 +1,6 @@
 ---
-title: "Worklog Tuần 3"
-date: 2026-05-08
+title: "Week3"
+date: 2026-04-24
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
@@ -8,53 +8,26 @@ pre: " <b> 1.3. </b> "
 
 ### Mục tiêu tuần 3:
 
-- Tìm hiểu các dịch vụ lưu trữ, cơ sở dữ liệu và phân phối nội dung trên AWS.
-- Thực hành triển khai website tĩnh và kết nối cơ sở dữ liệu.
-- Làm quen với các dịch vụ mở rộng hệ thống, giám sát và DNS.
-- Tiếp tục thực hành AWS CLI và làm quen với cơ sở dữ liệu NoSQL.
-- Tham gia thực tập tại công ty và trao đổi định hướng project.
+- Nghiên cứu và thực hành các dịch vụ lưu trữ AWS S3.
+- Tìm hiểu và phân tích lựa chọn cơ sở dữ liệu (Amazon RDS vs DynamoDB).
+- Chốt kiến trúc hệ thống (System Architecture) cho dự án AuraAcademic.
 
 ---
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | --------------------------------------- |
-| 2   | - Thực hành Hosting Website tĩnh với Amazon S3 <br> - Cấu hình Static Website Hosting <br> - Kết hợp Amazon CloudFront   | 01/05/2026   | 01/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Tạo và cấu hình Amazon RDS <br> - Kết nối ứng dụng với cơ sở dữ liệu <br> - Thực hành Backup và Restore                | 02/05/2026   | 02/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tham gia thực tập tại công ty <br> - Trao đổi với nhóm về định hướng project <br> - Tiếp tục thực hành các bài lab AWS | 06/05/2026   | 06/05/2026      |                                         |
-| 5   | - Tìm hiểu Amazon Lightsail Containers <br> - Thực hành EC2 Auto Scaling <br> - Giám sát hệ thống với Amazon CloudWatch  | 04/05/2026   | 04/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Quản lý DNS với Amazon Route 53 <br> - Thực hành AWS CLI <br> - Làm quen với Amazon DynamoDB                           | 05/05/2026   | 05/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu Amazon S3 (Buckets, Objects, Storage Classes, Versioning).<br>- Thực hành tạo S3 Bucket, cấu hình Bucket Policy và CORS.<br>- Demo tính năng Static Website Hosting trên S3. | 04/05/2026 | 04/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Nghiên cứu về Cơ sở dữ liệu quan hệ Amazon RDS (MySQL/PostgreSQL) và các tính năng Multi-AZ, Read Replicas. | 05/05/2026 | 05/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Nghiên cứu NoSQL Database - Amazon DynamoDB.<br>- Phân tích yêu cầu dữ liệu của dự án AuraAcademic: Cần lưu trữ log bài thi linh hoạt.<br>- Cùng nhóm ra quyết định sử dụng MongoDB Atlas kết hợp S3 để lưu hình ảnh/video. | 06/05/2026 | 06/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Sử dụng công cụ Draw.io để vẽ Sơ đồ kiến trúc tổng thể (Architecture Diagram).<br>- Phân rã hệ thống thành các module: Frontend (UI), Core API, và AI Processing (YOLOv8). | 07/05/2026 | 07/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Họp nhóm review sơ đồ kiến trúc.<br>- Giải đáp các thắc mắc về kỹ thuật cho các thành viên phụ trách mảng AI và Frontend. | 08/05/2026 | 08/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 
-### Kết quả đạt được tuần 3:
+### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
 
-- Thực hành Hosting Website tĩnh với Amazon S3 và kết hợp Amazon CloudFront để phân phối nội dung.
-
-- Tạo và cấu hình Amazon RDS:
-  - Kết nối ứng dụng với cơ sở dữ liệu.
-  - Thực hiện Backup và Restore dữ liệu.
-
-- Biết thêm về các dịch vụ:
-  - Amazon Lightsail Containers.
-  - Amazon EC2 Auto Scaling.
-  - Amazon CloudWatch.
-
-- Thực hành quản lý DNS với Amazon Route 53 và sử dụng AWS CLI để quản lý tài nguyên.
-
-- Làm quen với cơ sở dữ liệu NoSQL Amazon DynamoDB và các thao tác cơ bản.
-
-- Tham gia thực tập tại công ty, trao đổi với nhóm về định hướng project và kế hoạch triển khai trong các tuần tiếp theo.
-
----
-
-### Tự đánh giá:
-
-- Hoàn thành các nội dung về Storage, Database, Monitoring và Networking trên AWS.
-- Biết thêm quy trình triển khai website và kết nối cơ sở dữ liệu trên nền tảng cloud.
-- Biết cách sử dụng các dịch vụ mở rộng và giám sát hệ thống trên AWS.
-- Biết cách sử dụng AWS CLI và làm quen với Amazon DynamoDB.
-- Có thêm trải nghiệm làm việc thực tế tại công ty và chuẩn bị cho giai đoạn triển khai project.
-
----
+- Đã hiểu rõ cách vận hành của S3 và RDS/DynamoDB.
+- Thiết kế kiến trúc tổng thể rõ ràng, logic, giúp cả team hình dung được bức tranh toàn cảnh của dự án.

@@ -1,6 +1,6 @@
 ---
-title: "Worklog Week 7"
-date: 2026-06-05
+title: "Week7"
+date: 2026-04-24
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -8,47 +8,26 @@ pre: " <b> 1.7. </b> "
 
 ### Week 7 Objectives:
 
-- Continue developing the team project.
-- Complete the assigned features according to the project plan.
-- Update the workshop documentation and project progress report.
-- Attend the First Cloud Journey meeting to gain more knowledge and practical experience.
+- Develop core APIs for the Exam Management module.
+- Finalize the Dashboard UI for Instructors/Proctors.
+- Optimize source code and provide technical support.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks to be implemented this week:
 
-| Day | Task                                                                                                                                                                                                                                                                       | Start Date | Completion Date | Reference |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Internship at the company <br> - Self-study and discuss the project with team members                                                                                                                                                                                    | 01/06/2026 | 01/06/2026      |           |
-| Tue | - Continue developing the team project <br> - Complete assigned features                                                                                                                                                                                                   | 02/06/2026 | 02/06/2026      |           |
-| Wed | - Test and fix issues <br> - Update the source code and synchronize progress with the team                                                                                                                                                                                 | 03/06/2026 | 03/06/2026      |           |
-| Fri | - Update the workshop documentation <br> - Review project progress and prepare the weekly report                                                                                                                                                                           | 05/06/2026 | 05/06/2026      |           |
-| Sat | - Attend the First Cloud Journey meeting <br> - Learn about Docker <br> - Learn about AWS WAF combined with Machine Learning for cyber attack detection <br> - Learn about Godot Engine <br> - Listen to a career-sharing session from IT Helpdesk to System Administrator | 06/06/2026 | 06/06/2026      |           |
+| Day | Task | Start Date | End Date | Resource |
+| --- | --- | --- | --- | --- |
+| Mon | - Code CRUD APIs in Spring Boot for entities: Course, Exam, and Question.<br>- Apply DTOs to map data between Controllers and Services. | 01/06/2026 | 01/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Tue | - Implement logic to import multiple-choice questions from Excel/CSV to MongoDB using Apache POI. | 02/06/2026 | 02/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - On Frontend: Complete the Proctor Dashboard UI.<br>- Use React Query / SWR to fetch exam lists and display them in a Data Table. | 03/06/2026 | 03/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Thu | - Create 'Create Exam' forms with comprehensive Validation (React Hook Form + Zod).<br>- Handle complex components like Date/Time Pickers. | 04/06/2026 | 04/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Fri | - Database Optimization: Create MongoDB Indexes for frequently queried fields.<br>- Sprint review meeting to evaluate progress. | 05/06/2026 | 05/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
----
-
-### Results Achieved:
-
-- Attended the internship at the company, spent time on self-study, and discussed the project progress with team members.
-
-- Continued developing the team project and completed the assigned features.
-
-- Updated the workshop documentation and summarized the project progress.
-
-- Attended the First Cloud Journey meeting and learned about:
-  - Docker and its use in application deployment.
-  - AWS WAF combined with Machine Learning for cyber attack detection.
-  - Godot Engine.
-  - A career journey from IT Helpdesk to System Administrator.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation as Team Leader & Fullstack Developer:
 
-- Successfully completed the planned tasks for the week.
-
-- Gained additional knowledge about emerging technologies and industry experiences shared during the meeting.
-
-- Continued improving the project and prepared for the upcoming testing phase.
-
----
+- Completed the core business logic of the application (Exam Management).
+- Achieved high coding productivity and maintained clean architectures.

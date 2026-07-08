@@ -1,6 +1,6 @@
 ---
-title: "Worklog Week 11"
-date: 2026-07-03
+title: "Week11"
+date: 2026-04-24
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
@@ -8,45 +8,26 @@ pre: " <b> 1.11. </b> "
 
 ### Week 11 Objectives:
 
-- Continue improving the project according to the development plan.
-- Test the system and resolve the remaining issues.
-- Complete the final project features.
-- Prepare the application for deployment.
+- Automate the entire deployment process (CI/CD Pipeline).
+- Perform Load Testing on the system.
+- Continue finalizing the Workshop content.
 
 ---
 
-### Tasks Completed This Week:
+### Tasks to be implemented this week:
 
-| Day | Task                                                                                | Start Date | Completion Date | Reference |
-| --- | ----------------------------------------------------------------------------------- | ---------- | --------------- | --------- |
-| Mon | - Discuss project progress with team members remotely <br> - Update project status  | 29/06/2026 | 29/06/2026      |           |
-| Tue | - Review project features <br> - Perform full system testing                        | 30/06/2026 | 30/06/2026      |           |
-| Wed | - Resolve the remaining issues <br> - Re-test completed features                    | 01/07/2026 | 01/07/2026      |           |
-| Thu | - Complete the final project features <br> - Prepare the application for deployment | 02/07/2026 | 02/07/2026      |           |
-| Fri | - Deploy the application <br> - Verify the system after deployment                  | 03/07/2026 | 03/07/2026      |           |
+| Day | Task | Start Date | End Date | Resource |
+| --- | --- | --- | --- | --- |
+| Mon | - Explore AWS Developer Tools.<br>- Set up AWS CodeCommit to track source code changes. | 29/06/2026 | 29/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Tue | - Write a buildspec.yml file to configure AWS CodeBuild: Auto-build Spring Boot, package the Docker image, and push it to ECR. | 30/06/2026 | 30/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - Set up AWS CodePipeline connecting Source -> Build -> Deploy.<br>- Automate ECS Service updates when valid code is merged into main. | 01/07/2026 | 01/07/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Thu | - Use Apache JMeter for Load Testing: Simulate 200 students logging in and taking exams simultaneously.<br>- Evaluate CloudWatch metrics. | 02/07/2026 | 02/07/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| Fri | - Take screenshots of CI/CD setups and write detailed explanations for the personal Workshop. | 03/07/2026 | 03/07/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
----
-
-### Results Achieved:
-
-- Continued project development while coordinating remotely with team members.
-
-- Reviewed all project features, performed full system testing, and resolved the remaining issues.
-
-- Completed the final project features.
-
-- Successfully deployed the application and verified that the system operated correctly after deployment.
 
 ---
 
-### Self-Evaluation:
+### Self-evaluation as Team Leader & Fullstack Developer:
 
-- Successfully completed all planned tasks for the week.
-
-- Gained more experience in application deployment and post-deployment verification.
-
-- Improved remote collaboration and troubleshooting skills.
-
-- Ready to finalize the internship report and complete the internship program.
-
----
+- The CI/CD system runs smoothly, automating release workflows.
+- Ensured the system handles real-world exam loads effectively.
