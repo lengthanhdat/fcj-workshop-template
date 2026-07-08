@@ -8,4 +8,5 @@ pre: " <b> 3. </b> "
 
 # Danh sách các bài blog AWS đã dịch
 
-1. [Amazon S3 Files – Khi Amazon S3 không chỉ là Object Storage](3.1-Blog1/)
+1. [Tự Động Sao Chép Cấu Hình Amazon S3 Bucket Giữa Các AWS Region](3.1-Blog1/)
+2. [Amazon S3 Files – Khi Amazon S3 không chỉ là Object Storage](3.2-Blog2/)
