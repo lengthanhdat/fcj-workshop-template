@@ -1,33 +1,29 @@
 ---
-title: "Week2"
-date: 2026-04-24
+title: "Week 2"
+date: 2026-04-22
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives:
+# Internship Worklog - Week 2
 
-- Master Amazon EC2 compute service and related concepts (AMI, EBS).
-- Understand and deploy AWS VPC network infrastructure (Subnets, Route Tables, IGW).
-- Finalize the Project Proposal and assign team roles.
+**Timeframe:** 27/04/2026 - 01/05/2026
 
----
+Progress report and details of tasks completed during week 2 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Study Amazon Virtual Private Cloud (VPC), CIDR blocks, Public/Private Subnets, IGW, and NAT Gateway.<br>- Draw a basic network architecture. | 27/04/2026 | 27/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Practice deploying a Custom VPC via AWS Console.<br>- Configure Route Tables to route traffic to the Internet for the Public Subnet. | 28/04/2026 | 28/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - Launch an Amazon EC2 instance (Linux AMI) in the Public Subnet.<br>- Configure Security Groups to open port 22 (SSH) and 80 (HTTP).<br>- Connect via SSH. | 29/04/2026 | 29/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Install Apache/Nginx on EC2 to host a basic static website.<br>- Learn how to attach an Elastic IP.<br>- Explore Amazon EBS and mount volumes. | 30/04/2026 | 30/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Finalize AuraAcademic core features.<br>- Draft the Project Proposal.<br>- Officially take on the role of Fullstack Team Leader. | 01/05/2026 | 01/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | In-depth research and practice on Amazon Bedrock: Learn how to activate Model Access, distinguish between model families (Nova, Titan, Anthropic Claude). | 27/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Troubleshooting: Resolve ValidationException (Operation not allowed) error by reconfiguring model access rights and flexibly switching Regions (Singapore to US East). | 28/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Resource management and cost optimization: Practice system cleanup procedures (Terminate EC2, Delete RDS Instance, Snapshot) to preserve internship Credit. | 29/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Playground experimentation: Execute test prompts on Foundation Models to understand AI response capabilities. | 30/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Budget control (AWS Billing): Monitor real-time invoices and manage the allocated $200 credit limit. | 01/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- Mastered AWS networking and virtual servers.
-- Completed a high-quality Project Proposal and effectively assigned team tasks.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

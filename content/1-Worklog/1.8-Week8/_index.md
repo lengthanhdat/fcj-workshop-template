@@ -1,33 +1,29 @@
 ---
-title: "Week8"
-date: 2026-04-24
+title: "Week 8"
+date: 2026-04-22
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Week 8 Objectives:
+# Internship Worklog - Week 8
 
-- Integrate Amazon S3 to store multimedia data (Avatars, Evidence Videos).
-- Finalize the Exam Room UI for students.
-- Process the exam submission and auto-grading flow.
+**Timeframe:** 08/06/2026 - 12/06/2026
 
----
+Progress report and details of tasks completed during week 8 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Integrate AWS SDK for Java into Spring Boot.<br>- Write an API to generate S3 Presigned URLs for direct, secure file uploads from Frontend to S3. | 08/06/2026 | 08/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Configure Next.js to handle webcam captures and upload them to S3 using the received Presigned URLs. | 09/06/2026 | 09/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - Build the Exam Interface: Display questions sequentially, include a Countdown Timer synced with the server. | 10/06/2026 | 10/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Implement auto-submit logic when time runs out.<br>- Write Backend APIs to receive answers, compare them with correct answers, and calculate scores. | 11/06/2026 | 11/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Coordinate with the AI team member: Discuss WebSockets/API standards to receive fraud warnings from the YOLOv8 model. | 12/06/2026 | 12/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Containerization with Docker: Research and write Dockerfile and .dockerignore configuration files for Backend projects (Node.js/TypeScript or Java Spring Boot). Package the entire source code, environment variables, and AWS SDK libraries into independent Docker Images. | 08/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Optimize Docker Images: Practice Multi-stage build techniques to minimize Image size, helping the Cloud deployment process occur quickly and saving storage resources. | 09/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Familiarize with Amazon ECR (Elastic Container Registry): Create Private repositories on ECR, configure AWS CLI on the Local machine to authenticate, and safely push project Docker Images to the Cloud. | 10/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Research Amazon ECS (Elastic Container Service) & AWS Fargate: Explore Serverless container execution solutions (Fargate) to avoid managing underlying EC2 servers. Define Task Definitions (RAM, CPU, Port configurations) for the Backend container. | 11/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Test network configuration and security for Containers: Establish Port mapping flows and reconfigure Security Groups in preparation for connecting the Backend Container with the RDS Database and Bedrock API in the Cloud environment. | 12/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- Solved static file storage effectively using S3 Presigned URLs, offloading the Backend server.
-- Completed the most complex module of the project.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

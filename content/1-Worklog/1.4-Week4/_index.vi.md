@@ -1,33 +1,29 @@
 ---
-title: "Week4"
-date: 2026-04-24
+title: "Tuần 4"
+date: 2026-04-22
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu tuần 4:
+# Nhật Ký Thực Tập Tuần 4
 
-- Tìm hiểu sâu về AWS CloudFront (CDN) và Amazon Route 53 (DNS).
-- Chốt toàn bộ Tech Stack và lên danh sách các công việc (Backlog).
-- Thiết kế Cơ sở dữ liệu (Database Schema).
+**Thời gian:** 11/05/2026 - 15/05/2026
 
----
+Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 4 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
-### Các công việc cần triển khai trong tuần này:
+### Chi Tiết Công Việc
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Nghiên cứu cách hoạt động của Amazon CloudFront (Edge Locations, Caching, TTL).<br>- Thực hành kết hợp CloudFront với S3 Bucket để phân phối nội dung tĩnh với độ trễ thấp. | 11/05/2026 | 11/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Tìm hiểu Amazon Route 53: Cách đăng ký domain, quản lý Hosted Zones, và các chiến lược định tuyến (Routing Policies). | 12/05/2026 | 12/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Thống nhất Tech Stack cuối cùng: Next.js (Frontend), Spring Boot (Backend API), MongoDB Atlas (Database), FastAPI (AI/WebSockets). | 13/05/2026 | 13/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | - Thiết kế Database Schema chi tiết cho các Collection: Users, Exams, Questions, Submissions.<br>- Xác định rõ các Relationship và Index cần thiết để tối ưu query. | 14/05/2026 | 14/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 6 | - Tạo không gian làm việc trên Trello/Jira.<br>- Đưa các tính năng vào Product Backlog.<br>- Lên kế hoạch chi tiết cho các Sprint đầu tiên (Thiết kế UI & Setup Project). | 15/05/2026 | 15/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Chuyên sâu về Amazon S3 (Simple Storage Service): Thực hành cấu hình Amazon S3 để lưu trữ dữ liệu tĩnh (Static files). Tìm hiểu cách phân quyền Bucket Policy và CORS (Cross-Origin Resource Sharing) để cho phép ứng dụng Backend (Node.js/Java) upload và truy xuất hình ảnh, file tài liệu an toàn. | 11/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Triển khai Static Website Hosting: Thử nghiệm tính năng Hosting của S3 để triển khai (deploy) giao diện Frontend lên Cloud với chi phí tối ưu. | 12/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Nghiên cứu về Amazon CloudFront (CDN): Tìm hiểu cơ chế tăng tốc truyền tải nội dung toàn cầu thông qua mạng lưới Edge Location của CloudFront. Cấu hình CloudFront đứng trước S3 để tối ưu hóa tốc độ tải trang và bảo mật (giấu bucket gốc). | 13/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Tích hợp hệ thống lưu trữ vào Source Code: Viết thử nghiệm module kết nối AWS SDK trong code Backend để thực hiện các thao tác CRUD file trực tiếp lên S3. | 14/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Giám sát chi phí lưu trữ: Theo dõi dung lượng sử dụng trên S3 và thiết lập vòng đời dữ liệu (Lifecycle Policy) nhằm tối ưu hóa bộ nhớ, tránh lãng phí Credit tài trợ. | 15/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
-
-- Đã sẵn sàng về mặt lý thuyết mạng AWS nâng cao (CDN, DNS).
-- Chuẩn bị đầy đủ cơ sở hạ tầng quản lý dự án (Schema, Jira) để team bắt tay vào code.
+### Kết Quả Đạt Được
+- Hoàn thành xuất sắc toàn bộ các mục tiêu đề ra trong tuần.
+- Đảm bảo tiến độ dự án thực tập Aura Academic.

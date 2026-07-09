@@ -1,33 +1,28 @@
 ---
-title: "Week10"
-date: 2026-04-24
+title: "Week 10"
+date: 2026-04-22
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Week 10 Objectives:
+# Internship Worklog - Week 10
 
-- Complete Frontend deployment on AWS (S3 + CloudFront).
-- Perform End-to-End (E2E) Testing.
-- Outline ideas and prepare documentation for the personal Workshop.
+**Timeframe:** 22/06/2026 - 26/06/2026
 
----
+Progress report and details of tasks completed during week 10 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Build the Next.js app into static HTML/JS files.<br>- Deploy to an Amazon S3 Bucket and use CloudFront CDN for global distribution. | 22/06/2026 | 22/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Configure SSL/TLS Certificates (ACM) on CloudFront and ALB to support HTTPS securely. | 23/06/2026 | 23/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - Organize a User Acceptance Testing (UAT) session with all team members.<br>- Simulate Proctor and Student roles. | 24/06/2026 | 24/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Review Amazon CloudWatch logs, identify bottlenecks, and fix bugs (mostly mobile UI and S3 image display issues). | 25/06/2026 | 25/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Start drafting the outline for the personal technical Workshop: Chose the topic 'Deploying CI/CD with AWS CodePipeline'. | 26/06/2026 | 26/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Deploy Aura Academic Core Backend system to the Cloud: Officially deploy the Spring Boot Backend Docker Image to the Amazon ECS cluster combined with AWS Fargate. Configure Task Definitions and set up an Application Load Balancer (ALB) to distribute traffic evenly across Availability Zones (AZ A and AZ B). | 22/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Configure secure network infrastructure (VPC & Subnets): Establish the Amazon VPC virtual network environment. Configure Internet Gateway (IGW) for Inbound/Outbound flows, coordinated with NAT Gateways in Public Subnets to allow containers residing in Private Subnets to securely connect to the internet to call external services. | 23/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Set up a specialized AI computing cluster (EC2 GPU Instances): Configure the environment and deploy Docker Images containing the YOLOv8 model along with LiteLLM onto EC2 GPU Instances. Establish an Auto Scaling Group mechanism to ensure the system automatically scales the number of virtual machines based on the volume of AI exercises to process. | 24/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Integration test interconnected data flows: Check and configure AWS IAM permissions for services to interact securely. Test the interface source code synchronization flow from GitHub Actions via S3/CloudFront and verify the data storage connection from the Backend to the external MongoDB Atlas database. | 25/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- The AuraAcademic system is fully operational and smooth on the Production Cloud environment.
-- Demonstrated thoroughness in testing and bug fixing.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

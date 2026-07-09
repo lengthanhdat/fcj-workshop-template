@@ -1,33 +1,28 @@
 ---
-title: "Week10"
-date: 2026-04-24
+title: "Tuần 10"
+date: 2026-04-22
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Mục tiêu tuần 10:
+# Nhật Ký Thực Tập Tuần 10
 
-- Hoàn tất triển khai Frontend lên hạ tầng AWS (S3 + CloudFront).
-- Thực hiện kiểm thử toàn hệ thống (End-to-End Testing).
-- Lên khung ý tưởng và chuẩn bị tài liệu cho Workshop cá nhân.
+**Thời gian:** 22/06/2026 - 26/06/2026
 
----
+Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 10 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
-### Các công việc cần triển khai trong tuần này:
+### Chi Tiết Công Việc
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Build ứng dụng Next.js ra các file static HTML/JS.<br>- Triển khai bộ source này lên Amazon S3 Bucket và dùng CloudFront CDN để phân phối đến người dùng toàn cầu. | 22/06/2026 | 22/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Cấu hình SSL/TLS Certificate (ACM) trên CloudFront và ALB để hỗ trợ giao thức HTTPS an toàn cho toàn bộ hệ thống. | 23/06/2026 | 23/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Tổ chức phiên kiểm thử toàn hệ thống (UAT - User Acceptance Testing) với tất cả các thành viên trong nhóm.<br>- Giả lập vai trò Giám thị tạo đề và Sinh viên làm bài thi. | 24/06/2026 | 24/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | - Rà soát log trên Amazon CloudWatch, xác định các nút thắt cổ chai (bottleneck) và sửa các bugs (phần lớn là lỗi UI trên thiết bị di động và lỗi hiển thị hình ảnh S3). | 25/06/2026 | 25/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 6 | - Bắt đầu phác thảo đề cương cho Workshop kỹ thuật cá nhân theo yêu cầu thực tập: Chọn chủ đề 'Triển khai CI/CD với AWS CodePipeline'. | 26/06/2026 | 26/06/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Triển khai hệ thống Core Backend ứng dụng Aura Academic lên Cloud: Tiến hành deploy chính thức Docker Image của Spring Boot Backend lên cụm Amazon ECS kết hợp với AWS Fargate. Cấu hình các Task Definitions và thiết lập bộ cân bằng tải Application Load Balancer (ALB) để phân phối lưu lượng truy cập đồng đều qua các Availability Zone (AZ A và AZ B). | 22/06/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Cấu hình hạ tầng mạng bảo mật (VPC & Subnets): Thiết lập môi trường mạng ảo Amazon VPC. Cấu hình Internet Gateway (IGW) cho các luồng Inbound/Outbound, phối hợp với NAT Gateway trong các Public Subnet nhằm cho phép các container nằm trong Private Subnet kết nối ra internet an toàn để gọi các dịch vụ bên ngoài. | 23/06/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Thiết lập cụm tính toán AI chuyên biệt (EC2 GPU Instances): Cấu hình môi trường và triển khai Docker Image chứa mô hình YOLOv8 cùng LiteLLM lên các máy ảo EC2 GPU Instances. Thiết lập cơ chế tự động mở rộng Auto Scaling Group để đảm bảo hệ thống tự động tăng giảm số lượng máy ảo dựa trên lượng bài tập AI cần xử lý. | 24/06/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Kiểm thử tích hợp luồng dữ liệu liên thông: Kiểm tra và cấu hình phân quyền AWS IAM để các dịch vụ tương tác an toàn. Thực hiện kiểm thử luồng đồng bộ mã nguồn giao diện từ GitHub Actions qua S3/CloudFront và kiểm tra kết nối lưu trữ dữ liệu từ Backend sang cơ sở dữ liệu ngoại vi MongoDB Atlas. | 25/06/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
-
-- Hệ thống AuraAcademic đã chạy hoàn chỉnh và mượt mà trên môi trường Production Cloud.
-- Thể hiện sự chỉn chu trong khâu kiểm thử và fix bug.
+### Kết Quả Đạt Được
+- Hoàn thành xuất sắc toàn bộ các mục tiêu đề ra trong tuần.
+- Đảm bảo tiến độ dự án thực tập Aura Academic.

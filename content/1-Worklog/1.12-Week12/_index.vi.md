@@ -1,33 +1,27 @@
 ---
-title: "Week12"
-date: 2026-04-24
+title: "Tuần 12"
+date: 2026-04-22
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-### Mục tiêu tuần 12:
+# Nhật Ký Thực Tập Tuần 12
 
-- Tổng kết toàn bộ quá trình thực tập, hoàn thiện báo cáo Worklog.
-- Hoàn thiện 100% tài liệu Workshop và Project Demo.
-- Chuẩn bị tài liệu thuyết trình (Slide) và bảo vệ dự án cuối khóa.
+**Thời gian:** 06/07/2026 - 10/07/2026
 
----
+Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 12 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
-### Các công việc cần triển khai trong tuần này:
+### Chi Tiết Công Việc
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Tổng hợp và cập nhật toàn bộ nhật ký công việc (Worklog 12 tuần) vào Repository báo cáo cá nhân (Hugo Template). | 06/07/2026 | 06/07/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Rà soát lại bài Workshop 'Triển khai CI/CD Pipeline trên AWS'.<br>- Chỉnh sửa format Markdown, thêm alert và kiểm tra lại toàn bộ hình ảnh minh họa. | 07/07/2026 | 07/07/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Quay video Demo quá trình hoạt động của dự án AuraAcademic (Từ lúc tạo kỳ thi đến lúc sinh viên làm bài và AI bắt gian lận). | 08/07/2026 | 08/07/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | - Cùng nhóm thiết kế Slide thuyết trình cho Demo Day.<br>- Họp nhóm chạy thử chương trình (Dry-run), phân công người nói và chuẩn bị phần Q&A. | 09/07/2026 | 09/07/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 6 | - Đóng gói toàn bộ mã nguồn, tài liệu thiết kế, báo cáo cá nhân và gửi nộp cho ban tổ chức First Cloud Journey đúng deadline. | 10/07/2026 | 10/07/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Tổng kết số liệu vận hành hệ thống Aura Academic: Kết xuất các biểu đồ giám sát hiệu năng CPU/RAM từ CloudWatch và bảng kê chi tiết từ AWS Billing để chứng minh tính ổn định, độ trễ thấp và hiệu quả kinh tế của kiến trúc Hybrid Cloud đã thiết kế cho ứng dụng Aura Academic. | 06/07/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Bàn giao và đóng gói mã nguồn dự án: Đóng gói toàn bộ source code (bao gồm file cấu hình Dockerfile, pipeline GitHub Actions), viết file hướng dẫn triển khai hệ thống (README.md), hoàn thiện sơ đồ kiến trúc hệ thống (System Architecture Diagram) chi tiết trên nền tảng AWS. | 07/07/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Hoàn thiện hồ sơ thực tập tốt nghiệp: Viết bài báo cáo tổng kết kỳ thực tập tại doanh nghiệp, tổng hợp kết quả xây dựng hệ thống Cloud cho dự án Aura Academic. | 08/07/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
-
-- Hoàn thành xuất sắc mọi mục tiêu và deliverables của chương trình thực tập.
-- Trưởng thành vượt bậc về kỹ năng Cloud (AWS), Fullstack Development và kỹ năng lãnh đạo nhóm (Teamwork/Leadership).
+### Kết Quả Đạt Được
+- Hoàn thành xuất sắc toàn bộ các mục tiêu đề ra trong tuần.
+- Đảm bảo tiến độ dự án thực tập Aura Academic.

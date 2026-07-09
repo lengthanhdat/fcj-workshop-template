@@ -1,33 +1,28 @@
 ---
-title: "Week5"
-date: 2026-04-24
+title: "Tuần 5"
+date: 2026-04-22
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Mục tiêu tuần 5:
+# Nhật Ký Thực Tập Tuần 5
 
-- Hoàn thiện thiết kế giao diện UI/UX trên Figma.
-- Khởi tạo Repository và thiết lập các tiêu chuẩn lập trình (Coding Convention).
-- Xây dựng khung (Boilerplate) cho cả Frontend và Backend.
+**Thời gian:** 18/05/2026 - 22/05/2026
 
----
+Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 5 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
-### Các công việc cần triển khai trong tuần này:
+### Chi Tiết Công Việc
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Cùng team Frontend hoàn thiện thiết kế UI/UX trên Figma cho các màn hình: Đăng nhập, Dashboard Giám thị, và Giao diện làm bài thi. | 18/05/2026 | 18/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Tạo Github Repository cho dự án (phân chia folder cấu trúc Monorepo hoặc Multi-repo).<br>- Thiết lập Git Flow, branch protection rule.<br>- Cấu hình ESLint, Prettier, và Husky (pre-commit hooks) để đảm bảo chất lượng code. | 19/05/2026 | 19/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Khởi tạo base project Frontend bằng Next.js (App Router).<br>- Cài đặt và cấu hình Tailwind CSS, Shadcn UI.<br>- Xây dựng Layout tổng thể và thanh điều hướng (Sidebar/Navbar). | 20/05/2026 | 20/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | - Khởi tạo base project Backend bằng Spring Boot (Spring Web, Spring Data MongoDB).<br>- Thiết lập kết nối đến MongoDB Atlas qua URI bảo mật.<br>- Tạo cấu trúc thư mục Controller, Service, Repository chuẩn MVC. | 21/05/2026 | 21/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 6 | - Họp Sprint Planning: Phân chia các module code đầu tiên cho từng thành viên.<br>- Hướng dẫn team cách checkout branch, commit và tạo Pull Request (PR) đúng chuẩn. | 22/05/2026 | 22/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Nghiên cứu sâu về AWS IAM (Identity and Access Management): Thực hành áp dụng nguyên lý cấp quyền tối thiểu (Least Privilege). Tạo các IAM Group, User, và Role riêng biệt cho môi trường Development thay vì dùng tài khoản Root. | 18/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Tìm hiểu về Amazon Cognito: Nghiên cứu giải pháp quản lý người dùng (User Pools) và phân quyền (Identity Pools) tích hợp sẵn của AWS. | 19/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Xây dựng luồng Đăng ký/Đăng nhập bảo mật: Thử nghiệm tích hợp Cognito để quản lý tài khoản người dùng, hỗ trợ xác thực qua Token (JWT) cho hệ thống API Backend. | 20/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Bảo mật thông tin cấu hình (Credentials): Tìm hiểu cách sử dụng AWS Secrets Manager hoặc Systems Manager Parameter Store để lưu trữ an toàn các chuỗi kết nối Database, API Key (như VNPAY, Groq/Gemini API) thay vì viết cứng (hardcode) trong mã nguồn. | 21/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
-
-- Setup dự án cực kỳ bài bản và chuyên nghiệp ngay từ đầu.
-- Xây dựng được nền móng vững chắc (boilerplate) giúp các thành viên bắt đầu code dễ dàng.
+### Kết Quả Đạt Được
+- Hoàn thành xuất sắc toàn bộ các mục tiêu đề ra trong tuần.
+- Đảm bảo tiến độ dự án thực tập Aura Academic.

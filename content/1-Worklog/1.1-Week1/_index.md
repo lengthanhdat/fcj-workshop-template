@@ -1,35 +1,29 @@
 ---
-title: "Week1"
-date: 2026-04-24
+title: "Week 1"
+date: 2026-04-22
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Week 1 Objectives:
+# Internship Worklog - Week 1
 
-- Familiarize with the First Cloud Journey internship process and rules.
-- Grasp fundamental Cloud Computing concepts and the AWS ecosystem.
-- Create and secure an AWS Free Tier account (IAM, MFA, Billing Alarm).
-- Hold the first team meeting and brainstorm project ideas.
+**Timeframe:** 20/04/2026 - 24/04/2026
 
----
+Progress report and details of tasks completed during week 1 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Attend FCJ Orientation.<br>- Read guidelines and weekly report requirements.<br>- Get to know team members. | 20/04/2026 | 20/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Learn Cloud Computing overview (IaaS, PaaS, SaaS).<br>- Create AWS Free Tier account.<br>- Enable Multi-Factor Authentication (MFA). | 21/04/2026 | 21/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - Set up AWS Budgets and CloudWatch Alarms to receive email alerts for costs over $1. | 22/04/2026 | 22/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Explore AWS Management Console.<br>- Deep dive into AWS IAM.<br>- Practice creating IAM Users, Groups, and Roles with Least Privilege. | 23/04/2026 | 23/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Hold team kick-off meeting via Google Meet/Zoom.<br>- Brainstorm final project ideas.<br>- Agree on: AI-powered proctoring platform (AuraAcademic). | 24/04/2026 | 24/04/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Create an AWS account to serve the internship and Cloud learning process. | 20/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Get familiar with the AWS Management Console interface and basic services. | 21/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Complete 5 tasks in the 'First Cloud AI Journey' program (environment setup, service orientation, basic practice). | 22/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Watch and take notes on 5 videos in the AWS 2026 roadmap, including: program introduction, AWS overview, Console management, GenAI on AWS, and cost optimization. | 23/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Acquire foundational knowledge of Cloud Computing and learning orientation within the program. | 24/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- Successfully onboarded to AWS and secured the account.
-- Built initial engagement with team members.
-- Established clear project goals.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

@@ -1,33 +1,29 @@
 ---
-title: "Week7"
-date: 2026-04-24
+title: "Week 7"
+date: 2026-04-22
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Week 7 Objectives:
+# Internship Worklog - Week 7
 
-- Develop core APIs for the Exam Management module.
-- Finalize the Dashboard UI for Instructors/Proctors.
-- Optimize source code and provide technical support.
+**Timeframe:** 01/06/2026 - 05/06/2026
 
----
+Progress report and details of tasks completed during week 7 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Code CRUD APIs in Spring Boot for entities: Course, Exam, and Question.<br>- Apply DTOs to map data between Controllers and Services. | 01/06/2026 | 01/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Implement logic to import multiple-choice questions from Excel/CSV to MongoDB using Apache POI. | 02/06/2026 | 02/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - On Frontend: Complete the Proctor Dashboard UI.<br>- Use React Query / SWR to fetch exam lists and display them in a Data Table. | 03/06/2026 | 03/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Create 'Create Exam' forms with comprehensive Validation (React Hook Form + Zod).<br>- Handle complex components like Date/Time Pickers. | 04/06/2026 | 04/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Database Optimization: Create MongoDB Indexes for frequently queried fields.<br>- Sprint review meeting to evaluate progress. | 05/06/2026 | 05/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Build AWS SDK Integration Module: Use the preferred Backend programming language (Node.js/TypeScript or Java Spring Boot) to configure the @aws-sdk/client-bedrock-runtime library. Integrate secure Access Keys to establish a safe connection from the local Server to the AWS Cloud. | 01/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Program Amazon Bedrock API calls: Implement logic processing functions to call InvokeModel and Converse API methods. Pass input data (Prompt) and process output data (JSON Response) from selected Foundation Models (such as Amazon Nova or Anthropic Claude). | 02/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Process AI data flow logic for the Capstone Project (Aura Academic): Build an API that receives users' Writing essays, forwards them along with a System Prompt to Bedrock for AI analysis and scoring according to IELTS criteria, and returns JSON-structured results. | 03/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Optimize source code and Error Handling: Program error-catching mechanisms for API connection loss, handle bandwidth limits (Rate Limiting), and optimize response times (Timeout management) to ensure the Backend Server runs stably. | 04/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Monitor Tokens and Credits: Measure Token consumption for each API call via CloudWatch to control the usage rate of the $200 internship credit limit. | 05/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- Completed the core business logic of the application (Exam Management).
-- Achieved high coding productivity and maintained clean architectures.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

@@ -1,35 +1,29 @@
 ---
-title: "Week1"
-date: 2026-04-24
+title: "Tuần 1"
+date: 2026-04-22
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Mục tiêu tuần 1:
+# Nhật Ký Thực Tập Tuần 1
 
-- Làm quen với quy trình thực tập First Cloud Journey và các quy định của chương trình.
-- Nắm vững các khái niệm cơ bản về Cloud Computing và hệ sinh thái AWS.
-- Tạo và bảo mật tài khoản AWS Free Tier (Thiết lập IAM, MFA, Billing Alarm).
-- Tổ chức họp nhóm đầu tiên, khởi động quá trình brainstorm ý tưởng dự án.
+**Thời gian:** 20/04/2026 - 24/04/2026
 
----
+Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 1 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
-### Các công việc cần triển khai trong tuần này:
+### Chi Tiết Công Việc
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Tham gia buổi định hướng (Orientation) của chương trình FCJ.<br>- Đọc kỹ các tài liệu hướng dẫn, nội quy và yêu cầu báo cáo thực tập hàng tuần.<br>- Giao lưu và làm quen với các thành viên trong nhóm. | 20/04/2026 | 20/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Tìm hiểu tổng quan về Cloud Computing (IaaS, PaaS, SaaS).<br>- Tạo tài khoản AWS Free Tier.<br>- Kích hoạt Multi-Factor Authentication (MFA) cho tài khoản Root để tăng cường bảo mật. | 21/04/2026 | 21/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Thiết lập AWS Budgets và cấu hình CloudWatch Alarm để nhận thông báo qua email khi chi phí vượt quá 1 USD (Tránh rủi ro phát sinh chi phí ngoài ý muốn). | 22/04/2026 | 22/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | - Khám phá AWS Management Console.<br>- Tìm hiểu sâu về AWS IAM (Identity and Access Management).<br>- Thực hành tạo IAM User, Group, Role và gán các Policy theo nguyên tắc đặc quyền tối thiểu (Least Privilege). | 23/04/2026 | 23/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 6 | - Tổ chức buổi họp nhóm (Kick-off meeting) qua Google Meet/Zoom.<br>- Bắt đầu thảo luận các ý tưởng dự án cuối khóa.<br>- Thống nhất hướng đi: Xây dựng nền tảng thi trực tuyến có giám sát AI (AuraAcademic). | 24/04/2026 | 24/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Tạo tài khoản trên nền tảng AWS để phục vụ cho quá trình thực tập và học tập Cloud. | 20/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Làm quen với giao diện AWS Management Console và các dịch vụ cơ bản. | 21/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Hoàn thành 5 nhiệm vụ trong chương trình “First Cloud AI Journey” (thiết lập môi trường, làm quen dịch vụ, thực hành cơ bản). | 22/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Xem và ghi chú 5 video trong lộ trình AWS 2026, bao gồm: giới thiệu chương trình, tổng quan AWS, quản lý Console, GenAI trên AWS và tối ưu chi phí. | 23/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Bước đầu nắm được kiến thức nền tảng về Cloud Computing và định hướng học tập trong chương trình | 24/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
-
-- Đã làm quen với môi trường AWS và thiết lập bảo mật an toàn cho tài khoản.
-- Xây dựng được sự gắn kết ban đầu với các thành viên trong nhóm.
-- Xác định được mục tiêu dự án rõ ràng.
+### Kết Quả Đạt Được
+- Hoàn thành xuất sắc toàn bộ các mục tiêu đề ra trong tuần.
+- Đảm bảo tiến độ dự án thực tập Aura Academic.

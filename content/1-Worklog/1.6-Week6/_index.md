@@ -1,33 +1,27 @@
 ---
-title: "Week6"
-date: 2026-04-24
+title: "Week 6"
+date: 2026-04-22
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Week 6 Objectives:
+# Internship Worklog - Week 6
 
-- Integrate Authentication and Authorization.
-- Work with Amazon Cognito for user identity management.
-- Complete Login/Register functionalities.
+**Timeframe:** 25/05/2026 - 29/05/2026
 
----
+Progress report and details of tasks completed during week 6 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Deep dive into Amazon Cognito.<br>- Configure Cognito User Pool, set required attributes, and create an App Client. | 25/05/2026 | 25/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Integrate AWS Amplify / Cognito SDK into the Next.js app to handle Login, Signup, and Forgot Password flows. | 26/05/2026 | 26/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - On the Spring Boot side: Implement Spring Security.<br>- Write custom filters to intercept requests and validate JWT tokens issued by Cognito. | 27/05/2026 | 27/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Build an API to fetch the current user's Profile.<br>- Connect Frontend to call Backend APIs with Bearer Tokens.<br>- Configure Axios Interceptors. | 28/05/2026 | 28/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Review team Pull Requests.<br>- Pair-program with members struggling with API calls or React state. | 29/05/2026 | 29/05/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | In-depth evaluation of Amazon Bedrock: After resolving Model Access issues from previous weeks, test and compare actual performance between model lines: Amazon Nova (Lite/Pro) and Anthropic Claude 3 (Haiku/Sonnet) in terms of response speed and accuracy. | 25/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Practice Prompt Engineering on Playground: Research advanced prompt writing techniques (System Prompt, Few-shot prompting, Chain-of-Thought) directly on the AWS Console interface to optimize AI output. | 26/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Research API & SDK documentation: Read technical documentation on InvokeModel and Converse API methods of Amazon Bedrock in preparation for writing connection code. | 27/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- Successfully deployed a comprehensive security flow from Frontend to Backend using AWS Cognito.
-- Managed the team effectively through thorough code reviews.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

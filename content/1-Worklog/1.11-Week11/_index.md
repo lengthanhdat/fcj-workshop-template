@@ -1,33 +1,28 @@
 ---
-title: "Week11"
-date: 2026-04-24
+title: "Week 11"
+date: 2026-04-22
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Week 11 Objectives:
+# Internship Worklog - Week 11
 
-- Automate the entire deployment process (CI/CD Pipeline).
-- Perform Load Testing on the system.
-- Continue finalizing the Workshop content.
+**Timeframe:** 29/06/2026 - 03/07/2026
 
----
+Progress report and details of tasks completed during week 11 of the internship at AWS (Aura Academic Project).
 
-### Tasks to be implemented this week:
+### Task Details
 
-| Day | Task | Start Date | End Date | Resource |
+| No. | Task Description | Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| Mon | - Explore AWS Developer Tools.<br>- Set up AWS CodeCommit to track source code changes. | 29/06/2026 | 29/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Write a buildspec.yml file to configure AWS CodeBuild: Auto-build Spring Boot, package the Docker image, and push it to ECR. | 30/06/2026 | 30/06/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - Set up AWS CodePipeline connecting Source -> Build -> Deploy.<br>- Automate ECS Service updates when valid code is merged into main. | 01/07/2026 | 01/07/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Use Apache JMeter for Load Testing: Simulate 200 students logging in and taking exams simultaneously.<br>- Evaluate CloudWatch metrics. | 02/07/2026 | 02/07/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Take screenshots of CI/CD setups and write detailed explanations for the personal Workshop. | 03/07/2026 | 03/07/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Optimize and test core AI features on the Cloud: Operate and refine Aura Academic's intelligent processing flow. Test the large language analysis feature by connecting the Backend with Google Gemini API / Groq API, in parallel with testing local recognition and scoring features via the EC2 GPU cluster running YOLOv8. | 29/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Integrate Frontend security and notification service flows: Configure OTP verification Email flows for students/teachers via Google SMTP connecting from the Cloud system. Simultaneously, deploy AWS WAF security layer configuration in front of CloudFront to block malicious requests attacking the interface hosted on S3. | 30/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Tighten system information security: Review IAM security policies, tighten Security Groups of the ECS Fargate and EC2 GPU clusters. Only allow valid API requests routed from ALB and limit one-way internet access from the NAT Gateway. | 01/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | System Stress Testing: Simulate a large volume of concurrent requests (HTTPS Requests) from users sent via CloudFront/ALB. Measure the load capacity of the Spring Boot container on Fargate and the response speed of AI server clusters when processing IELTS exams simultaneously. | 02/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Self-evaluation as Team Leader & Fullstack Developer:
-
-- The CI/CD system runs smoothly, automating release workflows.
-- Ensured the system handles real-world exam loads effectively.
+### Achievements
+- Successfully accomplished all goals set for the week.
+- Ensured the Aura Academic internship project stays on schedule.

@@ -1,33 +1,29 @@
 ---
-title: "Week2"
-date: 2026-04-24
+title: "Tuần 2"
+date: 2026-04-22
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Mục tiêu tuần 2:
+# Nhật Ký Thực Tập Tuần 2
 
-- Làm chủ dịch vụ tính toán Amazon EC2 và các khái niệm liên quan (AMI, EBS).
-- Hiểu và tự tay triển khai hạ tầng mạng ảo AWS VPC (Subnets, Route Tables, IGW).
-- Hoàn thiện bản đề xuất dự án (Project Proposal) và chốt vai trò thành viên.
+**Thời gian:** 27/04/2026 - 01/05/2026
 
----
+Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 2 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
-### Các công việc cần triển khai trong tuần này:
+### Chi Tiết Công Việc
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Tìm hiểu lý thuyết về Amazon Virtual Private Cloud (VPC), CIDR block, Public/Private Subnet, Internet Gateway (IGW) và NAT Gateway.<br>- Vẽ sơ đồ mạng cơ bản cho hệ thống. | 27/04/2026 | 27/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Thực hành triển khai một Custom VPC hoàn chỉnh thông qua AWS Console.<br>- Cấu hình Route Table để định tuyến traffic ra Internet cho Public Subnet. | 28/04/2026 | 28/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Khởi tạo máy chủ ảo Amazon EC2 (Linux AMI) nằm trong Public Subnet.<br>- Cấu hình Security Group mở port 22 (SSH) và 80 (HTTP).<br>- Kết nối SSH vào EC2 instance từ máy local sử dụng key pair (.pem). | 29/04/2026 | 29/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | - Cài đặt Apache/Nginx trên EC2 để host một trang web tĩnh cơ bản.<br>- Tìm hiểu cách gán Elastic IP cho EC2.<br>- Tìm hiểu về Amazon EBS (Elastic Block Store) và cách mount volume vào EC2. | 30/04/2026 | 30/04/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 6 | - Cùng nhóm chốt lại các tính năng cốt lõi của AuraAcademic.<br>- Soạn thảo file Proposal cho dự án.<br>- Phân công vai trò chính thức: Đảm nhận vị trí Trưởng nhóm kiêm Fullstack Developer. | 01/05/2026 | 01/05/2026 | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-
+| 1 | Nghiên cứu và thực hành chuyên sâu về Amazon Bedrock: Tìm hiểu cách kích hoạt Model Access, phân biệt các dòng model (Nova, Titan, Anthropic Claude). | 27/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Xử lý sự cố kỹ thuật (Troubleshooting): Giải quyết lỗi ValidationException (Operation not allowed) bằng cách cấu hình lại quyền truy cập mô hình và chuyển đổi Region linh hoạt (Singapore sang US East). | 28/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Quản trị tài nguyên và tối ưu chi phí: Thực hành quy trình dọn dẹp hệ thống (Terminate EC2, Delete RDS Instance, Snapshot) để bảo toàn Credit thực tập. | 29/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Thử nghiệm Playground: Thực hiện các câu lệnh kiểm thử (test prompt) trên các Foundation Models để hiểu khả năng phản hồi của AI. | 30/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 5 | Kiểm soát ngân sách (AWS Billing): Theo dõi hóa đơn thời gian thực và quản lý hạn mức $200 credit được cấp. | 01/05/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
 
 ---
 
-### Tự đánh giá vai trò Trưởng nhóm & Fullstack Developer:
-
-- Nắm vững kiến thức mạng và máy chủ ảo trên AWS, có khả năng tự triển khai hạ tầng cơ bản.
-- Đã hoàn thành bản Proposal dự án chất lượng, phân công công việc hợp lý cho nhóm.
+### Kết Quả Đạt Được
+- Hoàn thành xuất sắc toàn bộ các mục tiêu đề ra trong tuần.
+- Đảm bảo tiến độ dự án thực tập Aura Academic.
