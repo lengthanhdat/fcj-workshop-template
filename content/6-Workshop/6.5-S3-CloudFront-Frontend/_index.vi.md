@@ -20,7 +20,7 @@ Mảng Frontend của ứng dụng (Next.js) sẽ được build ra các tệp t
 4. Ở mục **Block Public Access**, giữ nguyên dấu tick **Block all public access**. Hệ thống sẽ khóa chặt bucket này lại, chỉ cho phép CloudFront được chui vào lấy file (Bảo mật Enterprise).
 5. Cuộn xuống dưới cùng và nhấn **Create bucket**.
 
-![Create S3](../../images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step1.png)
+![Create S3](/fcj-workshop-template/images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step1.png)
 
 ---
 
@@ -58,7 +58,7 @@ _(Giao diện CloudFront mới của AWS 2024)_
    - Nhờ tính năng mới của AWS, CloudFront sẽ tự động cập nhật Policy cho S3 Bucket luôn nên ta không cần làm bằng tay nữa.
    - Bạn chỉ việc nhấn **Create distribution** ở dưới cùng.
 
-![Create CloudFront](../../images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step3.png)
+![Create CloudFront](/fcj-workshop-template/images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step3.png)
 
 ---
 

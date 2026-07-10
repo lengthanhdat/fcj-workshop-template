@@ -8,7 +8,7 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Lê Nguyễn Thành Đạt
+&emsp; **Full Name:** Le Nguyen Thanh Dat
 
 &emsp; **Phone Number:** 0979220248
 
@@ -26,7 +26,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 17/04/2026 to 10/07/2026
 
-![Your profile picture](images/avatar.png)
+![Your profile picture](/fcj-workshop-template/images/avatar.png)
 
 ### Report Content
 

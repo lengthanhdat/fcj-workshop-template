@@ -20,7 +20,7 @@ In this phase, we will set up the core infrastructure for the Spring Boot Backen
 4. Repository name: **`aura-academic-be`**.
 5. Click **Create repository**.
 
-![Create ECR](../../images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step1.png)
+![Create ECR](/fcj-workshop-template/images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step1.png)
 
 ---
 
@@ -51,7 +51,7 @@ The ALB will act as a "Receptionist", standing in the Public Subnet to receive r
    - Click the search box and select the **`aura-academic-ecs-tg`** you just created.
 9. Click **Create load balancer**.
 
-![Create ALB](../../images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step2.png)
+![Create ALB](/fcj-workshop-template/images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step2.png)
 
 ---
 
@@ -62,7 +62,7 @@ The ALB will act as a "Receptionist", standing in the Public Subnet to receive r
 3. Infrastructure: Select **AWS Fargate** (Serverless).
 4. Click **Create**.
 
-![Create Cluster](../../images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step3.png)
+![Create Cluster](/fcj-workshop-template/images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step3.png)
 
 ---
 
@@ -79,7 +79,7 @@ The ALB will act as a "Receptionist", standing in the Public Subnet to receive r
    - Container port: `8080`.
 7. Click **Create**.
 
-![Task Definition](../../images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step4.png)
+![Task Definition](/fcj-workshop-template/images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step4.png)
 
 ---
 
@@ -106,6 +106,6 @@ This is the most critical step to achieve Enterprise standards.
    - Target group: Select **Use an existing target group** -> Select `aura-academic-ecs-tg`.
 9. Click **Create**.
 
-![Create Service](../../images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step5.png)
+![Create Service](/fcj-workshop-template/images/6-Workshop/6.3-ECS-Backend/5.3-ecs-step5.png)
 
 Your Backend is now maximally protected and only interacts with the outside world through the ALB!

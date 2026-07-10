@@ -10,6 +10,8 @@ pre: " <b> 6. </b> "
 
 #### Overview
 
+![Deployment Architecture](/fcj-workshop-template/images/6-Workshop/BanFINAL.drawio.png)
+
 In this section, we will practice deploying the entire **AuraAcademic** system architecture to the actual Amazon Web Services (AWS) cloud computing environment.
 
 **Important Note on Deployment Architecture (Cost-Optimized vs Enterprise):**

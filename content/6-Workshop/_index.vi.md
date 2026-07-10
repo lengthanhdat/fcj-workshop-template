@@ -10,6 +10,8 @@ pre: " <b> 6. </b> "
 
 #### Tổng quan
 
+![Kiến trúc Triển khai](/fcj-workshop-template/images/6-Workshop/BanFINAL.drawio.png)
+
 Trong phần này, chúng ta sẽ bắt tay vào thực hành triển khai toàn bộ kiến trúc hệ thống của **AuraAcademic** lên môi trường điện toán đám mây Amazon Web Services (AWS) thực tế.
 
 **Lưu ý quan trọng về Kiến trúc triển khai (Cost-Optimized vs Enterprise):**

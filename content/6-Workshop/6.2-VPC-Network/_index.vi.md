@@ -30,7 +30,7 @@ Tính năng "VPC and more" của AWS giúp vẽ và khởi tạo toàn bộ hạ
    - **VPC endpoints:** Chọn **None**.
 5. Bấm nút **Create VPC** và chờ AWS hoàn tất khởi tạo.
 
-![Create VPC](../../images/6-Workshop/6.2-VPC-Network/5.2-vpc-step1.png)
+![Create VPC](/fcj-workshop-template/images/6-Workshop/6.2-VPC-Network/5.2-vpc-step1.png)
 
 ---
 
@@ -45,7 +45,7 @@ Tính năng "VPC and more" của AWS giúp vẽ và khởi tạo toàn bộ hạ
 5. Lặp lại y chang các bước 2-4 cho subnet public thứ hai: **`aura-academic-subnet-public2-ap-southeast-1b`**.
 *(Lưu ý: Tuyệt đối không bật tính năng này cho 2 cái Subnets có chữ `private`).*
 
-![Auto assign IP](../../images/6-Workshop/6.2-VPC-Network/5.2-vpc-step2.png)
+![Auto assign IP](/fcj-workshop-template/images/6-Workshop/6.2-VPC-Network/5.2-vpc-step2.png)
 
 ---
 
@@ -59,7 +59,7 @@ Security Group (SG) đóng vai trò là "chốt chặn sống còn" để kiểm
    - VPC: Chọn VPC `aura-academic` vừa tạo.
    - Inbound rules: Cho phép `HTTP` (Port 80) và `HTTPS` (Port 443) từ `Anywhere-IPv4`.
 
-![ALB Security Group](../../images/6-Workshop/6.2-VPC-Network/5.2-vpc-step3-alb.png)
+![ALB Security Group](/fcj-workshop-template/images/6-Workshop/6.2-VPC-Network/5.2-vpc-step3-alb.png)
 
 3. **ECS Backend Security Group (Cho vùng Private):**
    - Tên: `aura-academic-ecs-sg`
@@ -67,7 +67,7 @@ Security Group (SG) đóng vai trò là "chốt chặn sống còn" để kiểm
    - Inbound rules: 
      - Custom TCP, Port `8080`, Source: Click vào ô kính lúp và gõ `alb`, sau đó chọn đúng tên **`aura-academic-alb-sg`** (Chỉ cho phép traffic đi từ ALB vào Backend).
 
-![ECS Security Group](../../images/6-Workshop/6.2-VPC-Network/5.2-vpc-step3-ecs.png)
+![ECS Security Group](/fcj-workshop-template/images/6-Workshop/6.2-VPC-Network/5.2-vpc-step3-ecs.png)
 
 4. **EC2 AI Security Group (Cho vùng Private):**
    - Tên: `aura-academic-ai-sg`
@@ -77,7 +77,7 @@ Security Group (SG) đóng vai trò là "chốt chặn sống còn" để kiểm
      - Custom TCP, Port `4000`, Source: Click vào ô kính lúp và gõ `ecs`, sau đó chọn **`aura-academic-ecs-sg`** (Cho API nội bộ từ Backend gọi sang).
      - (Tuyệt đối **KHÔNG CẦN** mở Port 22 SSH vì chúng ta sẽ dùng tính năng Session Manager siêu bảo mật của AWS để connect thẳng vào Private Subnet).
 
-![EC2 AI Security Group](../../images/6-Workshop/6.2-VPC-Network/5.2-vpc-step3-ec2.png)
+![EC2 AI Security Group](/fcj-workshop-template/images/6-Workshop/6.2-VPC-Network/5.2-vpc-step3-ec2.png)
 
 ---
 

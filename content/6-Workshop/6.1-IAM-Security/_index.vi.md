@@ -32,7 +32,7 @@ GitHub cần một tài khoản có quyền (Credentials) để tự động hó
      4. `CloudFrontFullAccess` (Quyền xoá cache CDN sau khi tải frontend mới)
 5. Bấm **Next** đến trang Review, sau đó nhấn **Create user**.
 
-![Tạo IAM User cho GitHub Actions](../../images/6-Workshop/6.1-IAM-Security/1-create-user.png)
+![Tạo IAM User cho GitHub Actions](/fcj-workshop-template/images/6-Workshop/6.1-IAM-Security/1-create-user.png)
 
 ---
 
@@ -49,7 +49,7 @@ Sau khi tạo User thành công, chúng ta cần sinh ra mã khoá để cấp c
    - Mở Notepad/Text editor và copy 2 đoạn mã này lưu lại.
    - _Secret access key sẽ không thể xem lại lần thứ hai sau khi bạn bấm Done!_
 
-![Tạo Access Key thành công](../../images/6-Workshop/6.1-IAM-Security/2-access-key.png)
+![Tạo Access Key thành công](/fcj-workshop-template/images/6-Workshop/6.1-IAM-Security/2-access-key.png)
 
 ---
 
@@ -62,7 +62,7 @@ Khi ứng dụng Backend chạy trên Amazon ECS Fargate, nó cần mượn mộ
    - **Trường hợp 1:** Nếu role này đã tồn tại (do AWS tự sinh ra trước đó), bạn nhấn vào xem và kiểm tra xem nó đã có policy `AmazonECSTaskExecutionRolePolicy` hay chưa. Nếu có rồi, bạn đã hoàn tất!
    - **Trường hợp 2:** Nếu chưa có, bạn bấm **Create role**. Chọn Trusted entity type là **AWS service**, Use case chọn **Elastic Container Service** -> **Elastic Container Service Task**. Tìm và gán policy `AmazonECSTaskExecutionRolePolicy`. Đặt tên role là `ecsTaskExecutionRole` và tạo.
 
-![Cấu hình ecsTaskExecutionRole](../../images/6-Workshop/6.1-IAM-Security/3-ecs-role.png)
+![Cấu hình ecsTaskExecutionRole](/fcj-workshop-template/images/6-Workshop/6.1-IAM-Security/3-ecs-role.png)
 
 ---
 

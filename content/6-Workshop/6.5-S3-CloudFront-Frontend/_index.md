@@ -20,7 +20,7 @@ The Frontend component of the application (Next.js) will be built into static fi
 4. Under **Block Public Access**, keep the **Block all public access** checkbox ticked. The system will lock this bucket down, only allowing CloudFront to access the files (Enterprise Security).
 5. Scroll to the bottom and click **Create bucket**.
 
-![Create S3](../../images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step1.png)
+![Create S3](/fcj-workshop-template/images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step1.png)
 
 ---
 
@@ -58,7 +58,7 @@ _(New AWS CloudFront Interface 2024)_
    - Thanks to a new AWS feature, CloudFront will automatically update the Policy for the S3 Bucket, so we don't need to do it manually anymore.
    - You just need to click **Create distribution** at the bottom.
 
-![Create CloudFront](../../images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step3.png)
+![Create CloudFront](/fcj-workshop-template/images/6-Workshop/6.5-S3-CloudFront-Frontend/5.5-s3-step3.png)
 
 ---
 

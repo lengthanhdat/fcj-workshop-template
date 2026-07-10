@@ -21,9 +21,9 @@ To process the WebSockets video stream from the candidate's camera, we will use 
 5. Key pair: Click *Create new key pair* (if you don't have one), name it **`aura-academic-key`**, and download the `.pem` file to your computer as a backup (in practice we prefer connecting via Session Manager).
 6. Configure storage: The default is 8 GiB, you should increase it to **15 GiB** or **20 GiB** (gp3 type) because downloading Python libraries and AI Models consumes significant space.
 
-![Launch Instance 1](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-1.png)
+![Launch Instance 1](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-1.png)
 
-![Launch Instance 2](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-2.png)
+![Launch Instance 2](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-2.png)
 
 ---
 
@@ -35,7 +35,7 @@ To process the WebSockets video stream from the candidate's camera, we will use 
 4. Auto-assign public IP: Must select **Disable**.
 5. Firewall (security groups): Select *Select existing security group*, tick `aura-academic-ai-sg`.
 
-![Network Settings](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step2.png)
+![Network Settings](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step2.png)
 
 ---
 
@@ -58,7 +58,7 @@ After attaching permissions, proceed to connect:
 2. On the **In web browser** tab, look down at *Choose how to connect*, select the **SSM Session Manager** box (Maximum security).
 3. Click the orange **Connect** button. The browser will open a black Terminal window. You have successfully entered the Private Subnet!
 
-![Connect EC2](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step3.png)
+![Connect EC2](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step3.png)
 
 ---
 
@@ -99,4 +99,4 @@ For the external system (Internet) to communicate with the background AI Engine,
    - **Action**: Select **Forward** to the `aura-academic-ai-tg` Target Group you just created above.
    - Click Create/Save to save. (At this point, you can also conveniently delete the old EC2 port 8000 rule if you want).
 
-![Configure ALB for AI](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step5.png)
+![Configure ALB for AI](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step5.png)

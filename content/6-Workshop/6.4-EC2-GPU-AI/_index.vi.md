@@ -21,9 +21,9 @@ pre: " <b> 6.4 </b> "
 5. Key pair: Nhấn *Create new key pair* (nếu chưa có), đặt tên là **`aura-academic-key`**, và tải file `.pem` về máy để phòng hờ (thực tế ta sẽ ưu tiên connect bằng Session Manager).
 6. Configure storage: Mặc định là 8 GiB, bạn nên tăng lên **15 GiB** hoặc **20 GiB** (loại gp3) vì tải thư viện Python và Model AI khá tốn dung lượng.
 
-![Launch Instance 1](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-1.png)
+![Launch Instance 1](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-1.png)
 
-![Launch Instance 2](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-2.png)
+![Launch Instance 2](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step1-2.png)
 
 ---
 
@@ -35,7 +35,7 @@ pre: " <b> 6.4 </b> "
 4. Auto-assign public IP: Bắt buộc chọn **Disable**.
 5. Firewall (security groups): Chọn *Select existing security group*, tick vào `aura-academic-ai-sg`.
 
-![Network Settings](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step2.png)
+![Network Settings](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step2.png)
 
 ---
 
@@ -58,7 +58,7 @@ Sau khi gắn quyền, tiến hành kết nối:
 2. Tại tab **In web browser**, nhìn xuống phần *Choose how to connect*, hãy chọn ô **SSM Session Manager** (Maximum security).
 3. Nhấn nút **Connect** màu cam. Trình duyệt sẽ mở ra một cửa sổ Terminal đen ngòm. Bạn đã chui vào được Private Subnet thành công!
 
-![Connect EC2](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step3.png)
+![Connect EC2](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step3.png)
 
 ---
 
@@ -99,4 +99,4 @@ Sau khi gắn quyền, tiến hành kết nối:
    - **Action** (Hành động): Chọn **Forward** (chuyển tiếp) tới Target Group `aura-academic-ai-tg` mà bạn vừa tạo ở trên.
    - Bấm Create/Save để lưu lại. (Lúc này bạn cũng có thể tiện tay xóa cái rule cũ của EC2 port 8000 đi nếu muốn).
 
-![Cấu hình ALB cho AI](../../images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step5.png)
+![Cấu hình ALB cho AI](/fcj-workshop-template/images/6-Workshop/6.4-EC2-GPU-AI/5.4-ec2-step5.png)
