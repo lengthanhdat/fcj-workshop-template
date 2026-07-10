@@ -6,19 +6,30 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
+# Tổng quan Dự án (Project Overview)
 
+Trong quá trình thực tập tại **AWS Study Group Vietnam (First Cloud Journey - FCJ)**, em đã tham gia phát triển và xây dựng các chức năng cho dự án **Aura Academic** – một nền tảng quản lý học tập, thi cử và đánh giá năng lực trực tuyến hiện đại.
 
-# Dự án AuraAcademic
+Dự án được chia thành các phần chức năng chuyên biệt dành cho từng nhóm đối tượng người dùng (Học viên/User, Quản trị viên/Admin, và Giáo viên/Teacher).
 
-#### Tổng quan
+---
 
-Phần này tóm tắt dự án chính được thực hiện trong kỳ thực tập, bao gồm mục tiêu của dự án, phạm vi hệ thống, tiến độ triển khai và kết quả cuối cùng.
+### 📑 Danh sách chi tiết các phần của dự án:
 
-#### Nội dung
+1. **[5.1. Tổng quan dự án và các chức năng của User phần 1](5.1-Project-overview-user/)**  
+   *Giới thiệu chung về giao diện Dashboard, tổng quan hệ thống và trải nghiệm người dùng cơ bản.*
 
-1. [Tổng quan dự án và các chức năng của user](5.1-project-overview/)
-2. [Tổng quan dự án và các chức năng của user phần 2](5.2-project-scope/)
-3. [Tổng quan dự án và các chức năng dành cho người dùng phần 3](5.3-system-design/)
-4. [Các trang chức năng của Admin](5.4-implementation-and-integration/)
-5. [Các trang chức năng của Admin phần 2](5.5-testing-and-handover/)
-6. [Các trang chức năng của Giáo viên](5.6-conclusion-and-future-work/)
+2. **[5.2. Tổng quan dự án và các chức năng của User phần 2](5.2-Project-overview-user2/)**  
+   *Chi tiết giao diện trang kết quả thi, phòng thi và trang quản lý lớp học dành cho học viên.*
+
+3. **[5.3. Tổng quan dự án và các chức năng dành cho Người dùng phần 3](5.3-Project-overview-user3/)**  
+   *Giao diện trang Ngân hàng đề thi, tài liệu học tập, hệ thống thông báo và quản lý Hồ sơ cá nhân.*
+
+4. **[5.4. Các trang chức năng của Admin phần 1](5.4-Admin-Function-Pages/)**  
+   *Tổng quan Dashboard thống kê báo cáo toàn diện và quản lý danh sách lớp học khi đăng nhập bằng tài khoản Admin.*
+
+5. **[5.5. Các trang chức năng của Admin phần 2](5.5-Admin-Function-Pages2/)**  
+   *Giao diện Quản trị kỳ thi, xem báo cáo chi tiết, và công cụ biên soạn đề thi nâng cao cho Admin.*
+
+6. **[5.6. Các trang chức năng của Giáo viên](5.6-Teacher-Function-Pages/)**  
+   *Tổng quan Dashboard dành riêng cho Giáo viên, công cụ quản lý lớp, biên soạn đề thi và chấm điểm.*

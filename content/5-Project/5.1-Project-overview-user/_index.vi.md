@@ -1,12 +1,18 @@
 ---
-title : "Tổng quan dự án và các chức năng của user phần 1"
+title : "Tổng quan dự án và các chức năng của User (Phần 1)"
 date : 2024-01-01
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### 5.Tổng quan về giao diện của hệ thống: 
+# Tổng quan Giao diện Dashboard & Luồng Thi trực tuyến
+
+Phần này giới thiệu giao diện chính (Dashboard) và trải nghiệm tham gia thi trực tuyến dành cho học viên trên nền tảng **Aura Academic**.
+
+---
+
+### 1. Giao diện Bảng điều khiển (Dashboard)
 
 <div align="center">
 
@@ -16,120 +22,80 @@ pre : " <b> 5.1. </b> "
 
 </div>
 
+**Điểm nổi bật của Dashboard:**
+- **Thống kê tổng quan (Stats Cards):** Hiển thị nhanh Điểm trung bình, Số bài thi đã nộp, Lớp đang theo học và Lượt luyện tập.
+- **Truy cập nhanh phòng thi:** Ô nhập mã bài thi (ví dụ: `AURA25`) cho phép học viên xác thực và vào thi ngay lập tức mà không cần qua nhiều bước tìm kiếm.
+- **Dữ liệu học tập tổng hợp:** Theo dõi kết quả các bài thi gần đây, tiến độ hoàn thành và danh sách lớp học đang tham gia.
 
-#### 5.1.1 Mô tả giao diện ảnh 5.1
+---
 
-1. Khu vực thanh điều hướng trên cùng (Header)
- Thông tin hiển thị:
- Thời gian thực (04:27 Thứ 6, 10/07).
- Các nút tương tác (Buttons):
- Nút Menu (Icon 3 gạch ngang) để mở/thu gọn thanh bên trái.
- Nút Theme (Icon mặt trời) để đổi giao diện Sáng/Tối.
- Nút Thông báo (Icon cái chuông, đang có thông báo số ⁠3⁠ màu đỏ).
- Nút Tài khoản người dùng (Hiển thị Avatar chữ ⁠Đ⁠ và tên ⁠2783_ Đậu Đại Tài⁠).
-2. Khu vực Menu chức năng bên trái (Sidebar)
- Thông tin hiển thị:
- Logo dự án (Aura Academic).
- Các nút tương tác (Buttons):
- Danh sách tab điều hướng: Bảng điều khiển (đang chọn), Thi trực tuyến, Kết quả thi, Lớp học, Ngân hàng đề, Tài liệu học, Thông báo, Hồ sơ Cá nhân.
- Nút Đăng xuất (ở góc dưới cùng).
-3. Khu vực Lời chào & Vào thi nhanh
- Thông tin hiển thị:
- Câu chào mừng: "Xin chào, 2783_ Đậu Đại Tài!" kèm đoạn mô tả ngắn.
- Thẻ thông tin tài khoản: "toilatai2004@gmail.com - Tài khoản học sinh".
- Các nút tương tác (Buttons/Inputs):
- Ô nhập liệu (Input field): Nơi để gõ mã bài thi (Có chữ mờ "VD: AURA25").
- Nút "-> Vào": Bấm để xác nhận tham gia bài thi.
-4. Khu vực 4 Thẻ thống kê (Stats Cards)
-Khu vực này chủ yếu là Thông tin hiển thị, nhưng bản thân mỗi thẻ cũng có thể là một nút nhấn (nếu bạn có code cho nó click được).
- Thẻ 1: Điểm trung bình (Hiển thị số ⁠6.7⁠ & mô tả "Cao nhất 6.7/10").
- Thẻ 2: Bài thi đã nộp (Hiển thị số ⁠1⁠ & mô tả "100% đạt từ 5 điểm").
- Thẻ 3: Lớp đang học (Hiển thị số ⁠1⁠ & mô tả "Cập nhật theo lớp thật").
- Thẻ 4: Lượt luyện tập (Hiển thị số ⁠0⁠ & mô tả "Chưa luyện tập").
-5. Khu vực Bảng dữ liệu (Data Sections)
- Khung "Kết quả bài thi gần đây":
- Thông tin hiển thị: Bảng kết quả gồm Bài thi (Test - Mã đề 101), Thời gian (10/7/2026), Trạng thái (Hoàn thành - tag màu xanh), Điểm (6.7/10).
- Các nút tương tác: Nút text "Xem tất cả ->".
- Khung "Tổng quan học tập":
- Thông tin hiển thị: Thanh tiến trình (Progress bar) đạt 100%, Thẻ "Đã đạt" (1), Thẻ "Tổng điểm" (6.7/10).
- Khung "Lớp học của tôi":
- Thông tin hiển thị: Thẻ hiển thị lớp học ("Lớp 12 - Chưa có môn học - Đạt lệ").
- Các nút tương tác: Nút text "Mở lớp học ->" và Nút mũi tên ⁠>⁠ nằm trong thẻ Lớp 12.
- Khung "Luyện tập gần đây":
- Thông tin hiển thị: Trạng thái trống (Dòng chữ "Chưa có kết quả luyện tập.").
- Các nút tương tác: Nút text "Xem".
-6. Nút thả nổi (Floating Button)
- Các nút tương tác: Nút hình tròn màu xanh có icon Tin nhắn ở góc dưới cùng bên phải màn hình.
-
-
-
---------------------------------------------------------------------------------------------------------------
-
-
-
+### 2. Trang Thi trực tuyến & Xác thực mã phòng thi
 
 <div align="center">
 
 ![Hình 5.2: Giao diện Trang thi trực tuyến của hệ thống](image-1.png)
 
 **Hình 5.2. Giao diện Trang thi trực tuyến của hệ thống**
+
 </div>
-
-#### 5.1.2 Mô tả giao diện của ảnh 5.2: 
-1. Phân tích các chức năng hiện tại
- Khu vực điều hướng (Sidebar & Header): * Sidebar trái chứa đầy đủ các module cần thiết của một hệ sinh thái học tập (E-learning): Thi trực tuyến, Kết quả thi, Lớp học, Ngân hàng đề, Tài liệu học, Thông báo. Các icon đi kèm trực quan và dễ nhận biết.
- Header làm tốt vai trò cung cấp tiện ích nhanh: hiển thị thời gian thực, nút chuyển đổi giao diện Sáng/Tối (Dark/Light mode) rất bắt trend, chuông thông báo và góc quản lý tài khoản người dùng (Profile).
- Chức năng truy cập nhanh "Vào bài thi":
- Đây là một chức năng rất thực tế. Việc cho phép học sinh nhập mã phòng thi (ví dụ: AURA25) để tham gia ngay lập tức giúp tối ưu hóa luồng thao tác (user flow), thay vì phải lướt tìm trong danh sách các kỳ thi đang diễn ra.
- Các thẻ thống kê tổng quan (Statistics Cards):
- 4 thẻ (Điểm trung bình, Bài thi đã nộp, Lớp đang học, Lượt luyện tập) mang lại cái nhìn bao quát về tiến độ học tập ngay khi vừa đăng nhập. Màu sắc của từng thẻ (Xanh dương, Xanh lá, Vàng, Hồng) giúp phân biệt tốt các luồng thông tin khác nhau.
- Bảng dữ liệu chi tiết (Data Tables & Cards):
- Kết quả bài thi gần đây: Hiển thị dưới dạng bảng rất rõ ràng với các trường thông tin quan trọng (Tên/Mã đề, Thời gian, Trạng thái, Điểm). Nút "Xem tất cả" được bố trí hợp lý.
- Tổng quan học tập & Luyện tập gần đây: Giúp theo dõi tỉ lệ đạt và kết quả ôn luyện.
-
-
-
---------------------------------------------------------------------------------------------------------------
 
 <div align="center">
 
 ![Hình 5.3: Giao diện nhập mã phòng thi của hệ thống](image-2.png)
 
 **Hình 5.3. Giao diện nhập mã phòng thi của hệ thống**
+
 </div>
 
---------------------------------------------------------------------------------------------------------------
+<div align="center">
+
+![Hình 5.3b: Giao diện phòng chờ kiểm tra & giám sát Camera bằng AI YOLO (YOLO Proctoring)](image-proctoring-lobby.jpg)
+
+**Hình 5.3b. Giao diện phòng chờ kiểm tra & giám sát Camera bằng AI YOLO (YOLO Proctoring V1.0)**
+
+</div>
+
+**Chức năng chính:**
+- **Quản lý kỳ thi:** Hiển thị danh sách các kỳ thi đang diễn ra, sắp diễn ra và đã hoàn thành kèm bộ lọc trạng thái rõ ràng.
+- **Bảo mật phòng thi & Giám sát AI YOLO:** Hộp thoại nhập mã bảo mật giúp kiểm soát quyền truy cập. Trước khi bắt đầu thi, học viên được đưa vào phòng chờ kiểm tra camera, nơi hệ thống AI Monitoring (YOLO Proctoring V1.0) liên tục giám sát không gian làm bài và gửi cảnh báo vi phạm theo thời gian thực.
+
+---
+
+### 3. Trải nghiệm Làm bài thi & Nộp bài
 
 <div align="center">
 
 ![Hình 5.4: Giao diện sau khi nhấn làm bài thi của hệ thống](image-3.png)
 
 **Hình 5.4. Giao diện sau khi nhấn làm bài thi của hệ thống**
+
 </div>
 
---------------------------------------------------------------------------------------------------------------<div align="center">
+<div align="center">
 
 ![Hình 5.5: Giao diện làm bài thi của hệ thống](image-4.png)
 
 **Hình 5.5. Giao diện làm bài thi của hệ thống**
-</div>
 
---------------------------------------------------------------------------------------------------------------
+</div>
 
 <div align="center">
 
 ![Hình 5.6: Giao diện xác nhận nộp bài thi của hệ thống](image-5.png)
 
-**Hình 5.6.  Giao diện xác nhận nộp bài thi của hệ thống**
-</div>
+**Hình 5.6. Giao diện xác nhận nộp bài thi của hệ thống**
 
---------------------------------------------------------------------------------------------------------------
+</div>
 
 <div align="center">
 
 ![Hình 5.7: Giao diện hoàn thành bài thi của hệ thống](image-6.png)
 
-**Hình 5.7.  Giao diện hoàn thành bài thi của hệ thống**
+**Hình 5.7. Giao diện hoàn thành bài thi của hệ thống**
+
 </div>
 
---------------------------------------------------------------------------------------------------------------
+**Quy trình làm bài thi trực tuyến:**
+- **Không gian làm bài tối ưu:** Màn hình chia bố cục khoa học gồm nội dung câu hỏi trắc nghiệm/tự luận và bảng điều hướng câu hỏi bên phải.
+- **Đồng hồ đếm ngược & Tự động nộp:** Đếm ngược thời gian thực, tự động lưu đáp án và tự động nộp bài khi hết giờ để bảo vệ kết quả của học viên.
+- **Chấm điểm & Tổng kết tức thì:** Hộp thoại xác nhận trước khi nộp, sau đó hiển thị ngay tổng kết điểm số, thời gian hoàn thành và tỉ lệ câu đúng/sai.
