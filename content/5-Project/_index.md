@@ -14,7 +14,7 @@ pre: " <b> 5. </b> "
 **🌐 Website:** [Aura Academic](https://auraacademic.site/)
 
 ### 🎯 Key Highlights
-- **Cloud-Native Architecture:** Integrates core AWS services (EC2, S3, RDS, CloudFront, ALB) to ensure high availability and scalability.
+- **Cloud-Native Architecture:** Integrates core AWS services (EC2, S3, ECS, CloudFront, ALB) to ensure high availability and scalability.
 - **Seamless Experience:** Modern, optimized user interface with strict and specialized role-based access control.
 - **Diverse Features:** Fulfills a complete educational workflow, from creating classes and assigning homework to conducting online exams (with anti-cheat measures) and generating detailed reports.
 
