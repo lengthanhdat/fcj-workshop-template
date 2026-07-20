@@ -16,9 +16,9 @@ Progress report and details of tasks completed during week 12 of the internship 
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Tổng kết số liệu vận hành hệ thống Aura Academic: Kết xuất các biểu đồ giám sát hiệu năng CPU/RAM từ CloudWatch và bảng kê chi tiết từ AWS Billing để chứng minh tính ổn định, độ trễ thấp và hiệu quả kinh tế của kiến trúc Hybrid Cloud đã thiết kế cho ứng dụng Aura Academic. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Bàn giao và đóng gói mã nguồn dự án: Đóng gói toàn bộ source code (bao gồm file cấu hình Dockerfile, pipeline GitHub Actions), viết file hướng dẫn triển khai hệ thống (README.md), hoàn thiện sơ đồ kiến trúc hệ thống (System Architecture Diagram) chi tiết trên nền tảng AWS. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Hoàn thiện hồ sơ thực tập tốt nghiệp: Viết bài báo cáo tổng kết kỳ thực tập tại doanh nghiệp, tổng hợp kết quả xây dựng hệ thống Cloud cho dự án Aura Academic | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Summarize operational data of Aura Academic system: Export CPU/RAM performance monitoring charts from CloudWatch and detailed statements from AWS Billing to demonstrate the stability, low latency, and economic efficiency of the Hybrid Cloud architecture designed for the Aura Academic application. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Handover and package project source code: Package the entire source code (including Dockerfile configuration files, GitHub Actions pipelines), write a system deployment guide (README.md), and finalize the detailed System Architecture Diagram on the AWS platform. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Complete graduation internship dossier: Write a summary report of the corporate internship, synthesizing the results of building the Cloud system for the Aura Academic project. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---

@@ -16,8 +16,8 @@ Progress report and details of tasks completed during week 2 of the internship a
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Quản trị tài nguyên và tối ưu chi phí: Thực hành quy trình dọn dẹp hệ thống (Terminate EC2, Delete RDS Instance, Snapshot) để bảo toàn Credit thực tập. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Kiểm soát ngân sách (AWS Billing): Theo dõi hóa đơn thời gian thực và quản lý hạn mức $200 credit được cấp. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Resource management and cost optimization: Practice the system cleanup process (Terminate EC2, Delete RDS Instance, Snapshot) to preserve internship Credits. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Budget control (AWS Billing): Monitor real-time billing and manage the $200 allocated credit limit. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---

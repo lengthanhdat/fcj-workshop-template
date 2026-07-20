@@ -16,8 +16,8 @@ Progress report and details of tasks completed during week 9 of the internship a
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Triển khai giám sát ứng dụng Aura Academic với Amazon CloudWatch: Cấu hình CloudWatch Logs để thu thập và quản lý log tập trung từ các container Spring Boot Backend (chạy trên ECS Fargate) và các máy ảo EC2 GPU Instances. Thiết lập hệ thống cảnh báo (CloudWatch Alarms) khi các chỉ số tài nguyên vượt ngưỡng an toàn để kịp thời phát hiện sự cố hệ thống. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Quản lý hiệu năng và độ trễ của cụm AI liên kết: Theo dõi sát sao thời gian phản hồi (latency) của luồng API Inbound đi qua Application Load Balancer (ALB) đến Backend, cũng như luồng xử lý AI cục bộ (EC2 GPU chạy YOLOv8) và luồng gọi API GenAI bên ngoài (Google Gemini, Groq API). | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Deploy Aura Academic application monitoring with Amazon CloudWatch: Configure CloudWatch Logs to collect and manage centralized logs from Spring Boot Backend containers (running on ECS Fargate) and EC2 GPU Instances. Set up alert systems (CloudWatch Alarms) when resource metrics exceed safe thresholds to detect system issues promptly. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Manage performance and latency of the associated AI cluster: Closely monitor the response time (latency) of the Inbound API flow passing through the Application Load Balancer (ALB) to the Backend, as well as the local AI processing flow (EC2 GPU running YOLOv8) and external GenAI API calls (Google Gemini, Groq API). | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---

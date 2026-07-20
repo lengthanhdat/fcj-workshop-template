@@ -16,9 +16,9 @@ Progress report and details of tasks completed during week 8 of the internship a
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Containerization với Docker: Nghiên cứu và viết file cấu hình Dockerfile, .dockerignore cho các dự án Backend (Node.js/TypeScript hoặc Java Spring Boot). Tiến hành đóng gói toàn bộ mã nguồn, biến môi trường và các thư viện AWS SDK thành các Docker Image độc lập. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Tối ưu hóa Docker Image: Thực hành kỹ thuật Multi-stage build nhằm giảm tối đa dung lượng Image, giúp quá trình deploy lên Cloud diễn ra nhanh chóng và tiết kiệm tài nguyên lưu trữ. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Làm quen với Amazon ECR (Elastic Container Registry): Tạo các kho lưu trữ Private trên ECR, thực hiện cấu hình AWS CLI ở máy Local để đăng nhập (authenticate) và đẩy (push) các Docker Image của dự án lên Cloud an toàn. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Containerization with Docker: Research and write Dockerfile and .dockerignore configurations for Backend projects (Node.js/TypeScript or Java Spring Boot). Package the entire source code, environment variables, and AWS SDK libraries into independent Docker Images. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Optimize Docker Image: Practice Multi-stage build techniques to minimize Image size, enabling fast Cloud deployment and saving storage resources. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Getting familiar with Amazon ECR (Elastic Container Registry): Create Private repositories on ECR, configure AWS CLI on the local machine to authenticate and safely push the project's Docker Images to the Cloud. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---

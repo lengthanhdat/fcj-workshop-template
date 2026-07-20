@@ -16,8 +16,8 @@ Progress report and details of tasks completed during week 6 of the internship a
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Đánh giá chuyên sâu Amazon Bedrock: Sau khi xử lý xong các vấn đề về Model Access ở các tuần trước, tiến hành thử nghiệm và so sánh hiệu năng thực tế giữa các dòng mô hình: Amazon Nova (Lite/Pro), Anthropic Claude 3 (Haiku/Sonnet) về tốc độ phản hồi và độ chính xác. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Nghiên cứu tài liệu API & SDK: Đọc tài liệu kỹ thuật về các phương thức InvokeModel và Converse API của Amazon Bedrock để chuẩn bị cho việc viết code kết nối. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Deep evaluation of Amazon Bedrock: After resolving Model Access issues from previous weeks, test and compare the practical performance between model families: Amazon Nova (Lite/Pro), Anthropic Claude 3 (Haiku/Sonnet) regarding response speed and accuracy. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Research API & SDK documentation: Read technical documents on the InvokeModel and Converse API methods of Amazon Bedrock in preparation for writing connection code. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---

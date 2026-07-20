@@ -16,9 +16,9 @@ Progress report and details of tasks completed during week 5 of the internship a
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Nghiên cứu sâu về AWS IAM (Identity and Access Management): Thực hành áp dụng nguyên lý cấp quyền tối thiểu Tạo các IAM Group, User, và Role riêng biệt cho môi trường Development thay vì dùng tài khoản Root. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Tìm hiểu về Amazon Cognito: Nghiên cứu giải pháp quản lý người dùng và phân quyền tích hợp sẵn của AWS. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Xây dựng luồng Đăng ký/Đăng nhập bảo mật: Thử nghiệm tích hợp Cognito để quản lý tài khoản người dùng, hỗ trợ xác thực qua Token (JWT) cho hệ thống API Backend. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Deep dive into AWS IAM (Identity and Access Management): Practice applying the principle of least privilege. Create separate IAM Groups, Users, and Roles for the Development environment instead of using the Root account. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Learn about Amazon Cognito: Research AWS's built-in user management and authorization solution. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Build secure Sign up/Sign in flows: Experiment with integrating Cognito to manage user accounts, supporting authentication via Token (JWT) for the Backend API system. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---

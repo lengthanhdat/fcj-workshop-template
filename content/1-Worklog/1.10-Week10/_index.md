@@ -16,8 +16,8 @@ Progress report and details of tasks completed during week 10 of the internship 
 
 | No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Triển khai hệ thống Core Backend ứng dụng Aura Academic lên Cloud: Tiến hành deploy chính thức Docker Image của Spring Boot Backend lên cụm Amazon ECS kết hợp với AWS Fargate. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Thiết lập cụm tính toán AI chuyên biệt (EC2 GPU Instances): Cấu hình môi trường và triển khai Docker Image chứa mô hình YOLOv8 cùng LiteLLM lên các máy ảo EC2 GPU Instances. Thiết lập cơ chế tự động mở rộng Auto Scaling Group để đảm bảo hệ thống tự động tăng giảm số lượng máy ảo dựa trên lượng bài tập AI cần xử lý. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Deploy Aura Academic Core Backend system to the Cloud: Officially deploy the Docker Image of the Spring Boot Backend to the Amazon ECS cluster combined with AWS Fargate. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Setup specialized AI computing cluster (EC2 GPU Instances): Configure the environment and deploy the Docker Image containing the YOLOv8 model along with LiteLLM onto EC2 GPU Instances. Setup an Auto Scaling Group mechanism to ensure the system automatically scales the number of virtual machines based on the volume of AI tasks to process. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
 
 ---
