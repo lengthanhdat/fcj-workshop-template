@@ -11,7 +11,7 @@ pre: " <b> 5. </b> "
 
 ---
 
-**🌐 Link Website:** {{% button href="https://auraacademic.site/" icon="fas fa-globe" %}}Visit the System{{% /button %}}
+**🌐 Website:** [Aura Academic](https://auraacademic.site/)
 
 ### 🎯 Key Highlights
 - **Cloud-Native Architecture:** Integrates core AWS services (EC2, S3, RDS, CloudFront, ALB) to ensure high availability and scalability.

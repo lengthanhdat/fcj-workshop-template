@@ -11,7 +11,7 @@ pre: " <b> 5. </b> "
 
 ---
 
-**🌐 Link Website:** {{% button href="https://auraacademic.site/" icon="fas fa-globe" %}}Truy cập Hệ thống{{% /button %}}
+**🌐 Website:** [Aura Academic](https://auraacademic.site/)
 
 ### 🎯 Điểm nổi bật của hệ thống
 - **Kiến trúc Cloud-Native:** Tích hợp các dịch vụ cốt lõi của AWS (EC2, S3, RDS, CloudFront, ALB) để đảm bảo tính sẵn sàng cao và khả năng mở rộng.
