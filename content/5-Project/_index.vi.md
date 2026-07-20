@@ -11,11 +11,7 @@ pre: " <b> 5. </b> "
 
 ---
 
-**🌐 Live Demo:** {{% button href="https://auraacademic.site/" icon="fas fa-globe" %}}Truy cập Hệ thống{{% /button %}}
-
-{{% notice info %}}
-**Aura Academic** là dự án trọng điểm được phát triển trong khuôn khổ chương trình thực tập **First Cloud Journey (FCJ)** bởi AWS Study Group Vietnam. Hệ thống cung cấp giải pháp toàn diện cho việc học tập, thi trực tuyến và đánh giá năng lực, được tối ưu hoá và triển khai thực tế trên hạ tầng đám mây của AWS.
-{{% /notice %}}
+**🌐 Link Website:** {{% button href="https://auraacademic.site/" icon="fas fa-globe" %}}Truy cập Hệ thống{{% /button %}}
 
 ### 🎯 Điểm nổi bật của hệ thống
 - **Kiến trúc Cloud-Native:** Tích hợp các dịch vụ cốt lõi của AWS (EC2, S3, RDS, CloudFront, ALB) để đảm bảo tính sẵn sàng cao và khả năng mở rộng.

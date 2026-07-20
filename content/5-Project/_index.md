@@ -11,11 +11,7 @@ pre: " <b> 5. </b> "
 
 ---
 
-**🌐 Live Demo:** {{% button href="https://auraacademic.site/" icon="fas fa-globe" %}}Visit the System{{% /button %}}
-
-{{% notice info %}}
-**Aura Academic** is a key project developed during my internship at **AWS Study Group Vietnam (First Cloud Journey - FCJ)**. The system provides a comprehensive solution for learning, online examinations, and competency assessment, fully optimized and deployed on the AWS Cloud infrastructure.
-{{% /notice %}}
+**🌐 Link Website:** {{% button href="https://auraacademic.site/" icon="fas fa-globe" %}}Visit the System{{% /button %}}
 
 ### 🎯 Key Highlights
 - **Cloud-Native Architecture:** Integrates core AWS services (EC2, S3, RDS, CloudFront, ALB) to ensure high availability and scalability.
