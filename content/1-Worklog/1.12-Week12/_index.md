@@ -14,11 +14,12 @@ Progress report and details of tasks completed during week 12 of the internship 
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Summarize Aura Academic system operational metrics: Export CPU/RAM performance monitoring charts from CloudWatch and detailed statements from AWS Billing to demonstrate the stability, low latency, and economic efficiency of the Hybrid Cloud architecture designed for the Aura Academic application. | 06/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Handover and package project source code: Package the entire source code (including Dockerfile configurations, GitHub Actions pipelines), write a system deployment instruction file (README.md), and finalize the detailed System Architecture Diagram on the AWS platform. | 07/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Complete graduation internship profile: Write the final internship report at the enterprise, summarizing the results of building the Cloud system for the Aura Academic project. | 08/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Tổng kết số liệu vận hành hệ thống Aura Academic: Kết xuất các biểu đồ giám sát hiệu năng CPU/RAM từ CloudWatch và bảng kê chi tiết từ AWS Billing để chứng minh tính ổn định, độ trễ thấp và hiệu quả kinh tế của kiến trúc Hybrid Cloud đã thiết kế cho ứng dụng Aura Academic. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Bàn giao và đóng gói mã nguồn dự án: Đóng gói toàn bộ source code (bao gồm file cấu hình Dockerfile, pipeline GitHub Actions), viết file hướng dẫn triển khai hệ thống (README.md), hoàn thiện sơ đồ kiến trúc hệ thống (System Architecture Diagram) chi tiết trên nền tảng AWS. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Hoàn thiện hồ sơ thực tập tốt nghiệp: Viết bài báo cáo tổng kết kỳ thực tập tại doanh nghiệp, tổng hợp kết quả xây dựng hệ thống Cloud cho dự án Aura Academic | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

@@ -8,7 +8,7 @@ pre: " <b> 1.1. </b> "
 
 # Nhật Ký Thực Tập Tuần 1
 
-**Thời gian:** 20/04/2026 - 24/04/2026
+**Thời gian:** 20/04/2026-26/04/2026
 
 Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong tuần 1 của kỳ thực tập tại AWS (Dự án Aura Academic).
 
@@ -16,11 +16,11 @@ Báo cáo tiến độ và chi tiết các công việc đã thực hiện trong
 
 | STT | Nội Dung Công Việc | Ngày Thực Hiện | Tình Trạng | Tài Liệu Tham Khảo |
 | --- | --- | --- | --- | --- |
-| 1 | Tạo tài khoản trên nền tảng AWS để phục vụ cho quá trình thực tập và học tập Cloud. | 20/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Làm quen với giao diện AWS Management Console và các dịch vụ cơ bản. | 21/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Hoàn thành 5 nhiệm vụ trong chương trình “First Cloud AI Journey” (thiết lập môi trường, làm quen dịch vụ, thực hành cơ bản). | 22/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Xem và ghi chú 5 video trong lộ trình AWS 2026, bao gồm: giới thiệu chương trình, tổng quan AWS, quản lý Console, GenAI trên AWS và tối ưu chi phí. | 23/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
-| 5 | Bước đầu nắm được kiến thức nền tảng về Cloud Computing và định hướng học tập trong chương trình | 24/04/2026 | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Tạo tài khoản trên nền tảng AWS để phục vụ cho quá trình thực tập và học tập Cloud. | Trong tuần | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Làm quen với giao diện AWS Management Console và các dịch vụ cơ bản. | Trong tuần | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Hoàn thành 5 nhiệm vụ trong chương trình “First Cloud AI Journey” (thiết lập môi trường, làm quen dịch vụ, thực hành cơ bản). | Trong tuần | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Xem và ghi chú 5 video trong lộ trình AWS 2026, bao gồm: giới thiệu chương trình, tổng quan AWS, quản lý Console, GenAI trên AWS và tối ưu chi phí. | Trong tuần | ✅ Hoàn thành | [Tài liệu AWS](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

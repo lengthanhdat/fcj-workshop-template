@@ -14,13 +14,11 @@ Progress report and details of tasks completed during week 7 of the internship a
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Build AWS SDK Integration Module: Use the preferred Backend programming language (Node.js/TypeScript or Java Spring Boot) to configure the @aws-sdk/client-bedrock-runtime library. Integrate secure Access Keys to establish a safe connection from the local Server to the AWS Cloud. | 01/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Program Amazon Bedrock API calls: Implement logic processing functions to call InvokeModel and Converse API methods. Pass input data (Prompt) and process output data (JSON Response) from selected Foundation Models (such as Amazon Nova or Anthropic Claude). | 02/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Process AI data flow logic for the Capstone Project (Aura Academic): Build an API that receives users' Writing essays, forwards them along with a System Prompt to Bedrock for AI analysis and scoring according to IELTS criteria, and returns JSON-structured results. | 03/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Optimize source code and Error Handling: Program error-catching mechanisms for API connection loss, handle bandwidth limits (Rate Limiting), and optimize response times (Timeout management) to ensure the Backend Server runs stably. | 04/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 5 | Monitor Tokens and Credits: Measure Token consumption for each API call via CloudWatch to control the usage rate of the $200 internship credit limit. | 05/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Xây dựng Module tích hợp AWS SDK: Sử dụng ngôn ngữ lập trình Backend sở trường (Node.js/TypeScript hoặc Java Spring Boot) để cấu hình thư viện @aws-sdk/client-bedrock-runtime. Tích hợp Access Key bảo mật để thiết lập kết nối an toàn từ Server local lên AWS Cloud. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Tối ưu hóa mã nguồn và xử lý lỗi (Error Handling): Lập trình cơ chế bắt lỗi khi mất kết nối API, xử lý giới hạn băng thông (Rate Limiting) và tối ưu hóa thời gian phản hồi (Timeout management) để đảm bảo Server Backend chạy ổn định. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

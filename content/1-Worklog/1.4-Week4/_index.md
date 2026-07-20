@@ -14,13 +14,12 @@ Progress report and details of tasks completed during week 4 of the internship a
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Deep dive into Amazon S3: Practice configuring Amazon S3 to store static files. Learn how to configure Bucket Policy and CORS (Cross-Origin Resource Sharing) to allow the Backend application (Node.js/Java) to securely upload and retrieve images and documents. | 11/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Deploy Static Website Hosting: Experiment with S3 Hosting features to deploy the Frontend interface to the Cloud with optimized costs. | 12/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Research Amazon CloudFront (CDN): Understand the mechanism for accelerating global content delivery through CloudFront's Edge Location network. Configure CloudFront in front of S3 to optimize page load speed and security (hiding the origin bucket). | 13/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Integrate storage system into Source Code: Write test AWS SDK connection modules in Backend code to perform CRUD file operations directly on S3. | 14/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 5 | Monitor storage costs: Track capacity usage on S3 and establish data lifecycle (Lifecycle Policy) to optimize storage and avoid wasting granted Credits. | 15/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Chuyên sâu về Amazon S3: Thực hành cấu hình Amazon S3 để lưu trữ dữ liệu tĩnh (Static files). Tìm hiểu cách phân quyền Bucket Policy và CORS để cho phép ứng dụng Backend (Node.js/Java) upload và truy xuất hình ảnh, file tài liệu an toàn. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Triển khai Static Website Hosting: Thử nghiệm tính năng Hosting của S3 để triển khai (deploy) giao diện Frontend lên Cloud với chi phí tối ưu. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Nghiên cứu về Amazon CloudFront (CDN): Tìm hiểu cơ chế tăng tốc truyền tải nội dung toàn cầu thông qua mạng lưới Edge Location của CloudFront. Cấu hình CloudFront đứng trước S3 để tối ưu hóa tốc độ tải trang và bảo mật | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

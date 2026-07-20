@@ -14,12 +14,12 @@ Progress report and details of tasks completed during week 11 of the internship 
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Optimize and test core AI features on the Cloud: Operate and refine Aura Academic's intelligent processing flow. Test the large language analysis feature by connecting the Backend with Google Gemini API / Groq API, in parallel with testing local recognition and scoring features via the EC2 GPU cluster running YOLOv8. | 29/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Integrate Frontend security and notification service flows: Configure OTP verification Email flows for students/teachers via Google SMTP connecting from the Cloud system. Simultaneously, deploy AWS WAF security layer configuration in front of CloudFront to block malicious requests attacking the interface hosted on S3. | 30/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Tighten system information security: Review IAM security policies, tighten Security Groups of the ECS Fargate and EC2 GPU clusters. Only allow valid API requests routed from ALB and limit one-way internet access from the NAT Gateway. | 01/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | System Stress Testing: Simulate a large volume of concurrent requests (HTTPS Requests) from users sent via CloudFront/ALB. Measure the load capacity of the Spring Boot container on Fargate and the response speed of AI server clusters when processing IELTS exams simultaneously. | 02/07/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Tối ưu hóa và kiểm thử các tính năng AI cốt lõi trên Cloud: Vận hành và tinh chỉnh luồng xử lý thông minh của Aura Academic. Kiểm thử tính năng phân tích ngôn ngữ lớn bằng cách kết nối Backend với Google Gemini API / Groq API, song song với việc kiểm thử các tính năng nhận diện, chấm điểm cục bộ qua cụm EC2 GPU chạy YOLOv8. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Tích hợp luồng dịch vụ thông báo và bảo mật Frontend: Cấu hình luồng gửi Email OTP xác thực cho học viên/giáo viên thông qua Google SMTP kết nối từ hệ thống Cloud. Đồng thời, triển khai cấu hình lớp bảo mật AWS WAF đứng trước CloudFront để chặn các request độc hại tấn công vào giao diện đang lưu trữ trên S3. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Thắt chặt bảo mật an toàn thông tin hệ thống: Rà soát lại chính sách bảo mật IAM, thắt chặt Security Groups của cụm ECS Fargate và EC2 GPU. Chỉ cho phép nhận request API hợp lệ điều hướng từ ALB và giới hạn quyền truy cập một chiều từ NAT Gateway ra môi trường internet. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

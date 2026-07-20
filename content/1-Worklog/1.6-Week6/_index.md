@@ -14,11 +14,11 @@ Progress report and details of tasks completed during week 6 of the internship a
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | In-depth evaluation of Amazon Bedrock: After resolving Model Access issues from previous weeks, test and compare actual performance between model lines: Amazon Nova (Lite/Pro) and Anthropic Claude 3 (Haiku/Sonnet) in terms of response speed and accuracy. | 25/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Practice Prompt Engineering on Playground: Research advanced prompt writing techniques (System Prompt, Few-shot prompting, Chain-of-Thought) directly on the AWS Console interface to optimize AI output. | 26/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Research API & SDK documentation: Read technical documentation on InvokeModel and Converse API methods of Amazon Bedrock in preparation for writing connection code. | 27/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Đánh giá chuyên sâu Amazon Bedrock: Sau khi xử lý xong các vấn đề về Model Access ở các tuần trước, tiến hành thử nghiệm và so sánh hiệu năng thực tế giữa các dòng mô hình: Amazon Nova (Lite/Pro), Anthropic Claude 3 (Haiku/Sonnet) về tốc độ phản hồi và độ chính xác. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Nghiên cứu tài liệu API & SDK: Đọc tài liệu kỹ thuật về các phương thức InvokeModel và Converse API của Amazon Bedrock để chuẩn bị cho việc viết code kết nối. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

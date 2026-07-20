@@ -14,12 +14,12 @@ Progress report and details of tasks completed during week 5 of the internship a
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | In-depth research on AWS IAM (Identity and Access Management): Practice applying the Least Privilege principle. Create separate IAM Groups, Users, and Roles for the Development environment instead of using the Root account. | 18/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Explore Amazon Cognito: Research AWS's built-in user management (User Pools) and authorization (Identity Pools) solutions. | 19/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Build a secure Registration/Login flow: Test Cognito integration for user account management, supporting Token authentication (JWT) for the Backend API system. | 20/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Secure configuration information (Credentials): Learn how to use AWS Secrets Manager or Systems Manager Parameter Store to safely store Database connection strings and API Keys (like VNPAY, Groq/Gemini API) instead of hardcoding them in the source code. | 21/05/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Nghiên cứu sâu về AWS IAM (Identity and Access Management): Thực hành áp dụng nguyên lý cấp quyền tối thiểu Tạo các IAM Group, User, và Role riêng biệt cho môi trường Development thay vì dùng tài khoản Root. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Tìm hiểu về Amazon Cognito: Nghiên cứu giải pháp quản lý người dùng và phân quyền tích hợp sẵn của AWS. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Xây dựng luồng Đăng ký/Đăng nhập bảo mật: Thử nghiệm tích hợp Cognito để quản lý tài khoản người dùng, hỗ trợ xác thực qua Token (JWT) cho hệ thống API Backend. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

@@ -14,13 +14,13 @@ Progress report and details of tasks completed during week 1 of the internship a
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Create an AWS account to serve the internship and Cloud learning process. | 20/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Get familiar with the AWS Management Console interface and basic services. | 21/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Complete 5 tasks in the 'First Cloud AI Journey' program (environment setup, service orientation, basic practice). | 22/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Watch and take notes on 5 videos in the AWS 2026 roadmap, including: program introduction, AWS overview, Console management, GenAI on AWS, and cost optimization. | 23/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 5 | Acquire foundational knowledge of Cloud Computing and learning orientation within the program. | 24/04/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Tạo tài khoản trên nền tảng AWS để phục vụ cho quá trình thực tập và học tập Cloud. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Làm quen với giao diện AWS Management Console và các dịch vụ cơ bản. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Hoàn thành 5 nhiệm vụ trong chương trình “First Cloud AI Journey” (thiết lập môi trường, làm quen dịch vụ, thực hành cơ bản). | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 4 | Xem và ghi chú 5 video trong lộ trình AWS 2026, bao gồm: giới thiệu chương trình, tổng quan AWS, quản lý Console, GenAI trên AWS và tối ưu chi phí. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 

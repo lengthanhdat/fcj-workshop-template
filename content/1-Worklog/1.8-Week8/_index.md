@@ -14,13 +14,12 @@ Progress report and details of tasks completed during week 8 of the internship a
 
 ### Task Details
 
-| No. | Task Description | Date | Status | Reference |
+| No. | Task Description | Execution Date | Status | Reference |
 | --- | --- | --- | --- | --- |
-| 1 | Containerization with Docker: Research and write Dockerfile and .dockerignore configuration files for Backend projects (Node.js/TypeScript or Java Spring Boot). Package the entire source code, environment variables, and AWS SDK libraries into independent Docker Images. | 08/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Optimize Docker Images: Practice Multi-stage build techniques to minimize Image size, helping the Cloud deployment process occur quickly and saving storage resources. | 09/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Familiarize with Amazon ECR (Elastic Container Registry): Create Private repositories on ECR, configure AWS CLI on the Local machine to authenticate, and safely push project Docker Images to the Cloud. | 10/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Research Amazon ECS (Elastic Container Service) & AWS Fargate: Explore Serverless container execution solutions (Fargate) to avoid managing underlying EC2 servers. Define Task Definitions (RAM, CPU, Port configurations) for the Backend container. | 11/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-| 5 | Test network configuration and security for Containers: Establish Port mapping flows and reconfigure Security Groups in preparation for connecting the Backend Container with the RDS Database and Bedrock API in the Cloud environment. | 12/06/2026 | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 1 | Containerization với Docker: Nghiên cứu và viết file cấu hình Dockerfile, .dockerignore cho các dự án Backend (Node.js/TypeScript hoặc Java Spring Boot). Tiến hành đóng gói toàn bộ mã nguồn, biến môi trường và các thư viện AWS SDK thành các Docker Image độc lập. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Tối ưu hóa Docker Image: Thực hành kỹ thuật Multi-stage build nhằm giảm tối đa dung lượng Image, giúp quá trình deploy lên Cloud diễn ra nhanh chóng và tiết kiệm tài nguyên lưu trữ. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+| 3 | Làm quen với Amazon ECR (Elastic Container Registry): Tạo các kho lưu trữ Private trên ECR, thực hiện cấu hình AWS CLI ở máy Local để đăng nhập (authenticate) và đẩy (push) các Docker Image của dự án lên Cloud an toàn. | In week | ✅ Completed | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+
 
 ---
 
